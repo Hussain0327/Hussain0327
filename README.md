@@ -1,4 +1,4 @@
-# Raja Hussain · CS & Math · Founder, ValtricAI
+# Raja Hussain · CS & Math major · Founder, ValtricAI
 
 **Focus:** Applied AI agents, ML systems, and pragmatic SWE. Open to **AI/ML/SWE internships**.
 
