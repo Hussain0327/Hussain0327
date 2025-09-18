@@ -6,7 +6,7 @@
 
 ### 👋 **Welcome**
 
-I’m **Raja Hussain** — CS & Math major and founder of **ValtricAI**. I build applied AI agents, lean ML systems, and pragmatic software.
+I’m **Raja Hussain** CS & Math major and founder of **ValtricAI**. I build applied AI agents, lean ML systems, and pragmatic software.
 
 ---
 
