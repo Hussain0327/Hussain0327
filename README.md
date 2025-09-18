@@ -35,7 +35,7 @@ I’m **Raja Hussain** CS & Math major and founder of **ValtricAI**. I build app
 
 ### 📌 **Selected Projects**
 
-- **ValtricAI (platform)** — Multi-agent orchestration for lead recovery and compliance checks.  
+- **ValtricAI** — Prototyping “LLMs instead of consulting” workflows for SMB/gov.  
   Repo: https://github.com/Hussain0327/valtric-consulting-ai
 
 - **Riona Agent** — Website AI agent integration, prompt routing cleanup.  
