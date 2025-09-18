@@ -1,42 +1,66 @@
-# Raja Hussain · CS & Math major · Founder, ValtricAI
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+there!+👋;I'm+Raja+Hussain;Welcome+to+my+GitHub&center=true&size=30">
+  </a>
+</h1>
 
-**Focus:** Applied AI agents, ML systems, and pragmatic SWE. Open to **AI/ML/SWE internships**.
+### 👋 **Welcome**
 
-* Building **ValtricAI** — specialized AI agents
-* Interest areas: conversational AI, multi agent orchestration, retrieval systems, AI research
+I’m **Raja Hussain** — CS & Math major and founder of **ValtricAI**. I build applied AI agents, lean ML systems, and pragmatic software.
 
-## Skills
-
-**Languages:** Python, JavaScript/TypeScript, SQL
-
-**Frameworks/Tools:** FastAPI, Flask, Node.js, n8n, Supabase, Redis, Docker, GitHub Actions
-
-**ML:** NumPy, pandas, scikit‑learn, basic fine‑tuning, vector search/RAG
-
-**Cloud/Infra:** Supabase, Vercel/Netlify, GitHub Pages
-
-## Selected Projects
-
-> Live demos are ideal. Add links as you publish them.
-
-* **ValtricAI (platform)** — Multi‑agent orchestration for lead recovery and compliance checks. FastAPI + n8n + Supabase.
-  Repo: [https://github.com/Hussain0327/valtric-consulting-ai](https://github.com/Hussain0327/valtric-consulting-ai) 
-
-* **Riona Agent** — Website AI agent integration, prompt + routing logic clean‑up.
-  Repo: [https://github.com/Hussain0327/riona](https://github.com/Hussain0327/riona)
-
-* **Spark‑a‑Wish** — TypeScript demo with API integration and clean componentization.
-  Repo: [https://github.com/Hussain0327/spark-a-wish-47](https://github.com/Hussain0327/spark-a-wish-47)
-
-* **CS‑100 Exercises** — Intro CS practice and zyBooks‑aligned labs (kept tidy for recruiters).
-  Repo: [https://github.com/Hussain0327/cs-100](https://github.com/Hussain0327/cs-100)
-
-## Experience
-
-* **Founder, ValtricAI** — building applied AI agents for service businesses and gov/SMB workflows. 
-
-## Contact
-
-* Email: **[hello@valtricai.com](mailto:hello@valtricai.com)**
-* LinkedIn: https://www.linkedin.com/in/raja-hussain-b69a252a9/
 ---
+
+### 🚀 **Currently Working On**
+- **Echo (ValtricAI)** — AI Data scientist.
+- **Full stack consulting firm startup** — prototyping “LLMs instead of consulting” workflows for SMB/gov.
+- **TinyLM-Scaling** — from-scratch GPT + scaling law experiments.
+
+---
+
+### 🧠 **Focus & Interests**
+- Conversational AI, retrieval/RAG, multi-agent routing
+- FastAPI backends, automations orchestration, Supabase data stacks
+- Research-driven engineering
+
+---
+
+### 🧰 **Tech Stack**
+
+**Languages:** Python · TypeScript/JavaScript · SQL  
+**Frameworks:** FastAPI · Flask · Node.js · n8n  
+**Data/ML:** NumPy · pandas · scikit-learn · vector search/RAG  
+**Infra:** Supabase · Redis · Docker · GitHub Actions · Vercel/Netlify
+
+---
+
+### 📌 **Selected Projects**
+
+- **ValtricAI (platform)** — Multi-agent orchestration for lead recovery and compliance checks.  
+  Repo: https://github.com/Hussain0327/valtric-consulting-ai
+
+- **Riona Agent** — Website AI agent integration, prompt routing cleanup.  
+  Repo: https://github.com/Hussain0327/riona
+
+- **TinyLM-Scaling** — Minimal GPT with empirical scaling law runs.  
+  Repo: https://github.com/Hussain0327/Ai-Research
+
+---
+
+### 💼 **Open To**
+**AI/ML/SWE internships** and research-oriented roles. Preference for applied agent systems and backend ML infra.
+
+---
+
+### 🌐 **Connect**
+- **Website:** https://valtricai.com  
+- **Email:** hello@valtricai.com  
+- **LinkedIn:** https://www.linkedin.com/in/raja-hussain-b69a252a9/
+
+---
+
+### 📊 **GitHub Stats** _(optional)_
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact" height="165">
+</p>
+
