@@ -57,10 +57,3 @@ I’m **Raja Hussain** — CS & Math major and founder of **ValtricAI**. I build
 - **LinkedIn:** https://www.linkedin.com/in/raja-hussain-b69a252a9/
 
 ---
-
-### 📊 **GitHub Stats** _(optional)_
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact" height="165">
-</p>
-
