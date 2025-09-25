@@ -21,20 +21,22 @@
 ---
 
 ### 👋 About
-I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I build **applied AI agents**, lean ML backends, and practical automation for real users.
+I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I build **applied AI agents**, lean ML systems, and practical automation for real users.
 
-- Learning in public: small, shippable projects > theory only
-- Interested in: conversational AI, RAG, agent routing, FastAPI backends, Supabase data stacks
+- Learning in public: small, shippable projects > theory only  
+- Interests: conversational AI, RAG, agent routing, FastAPI backends, Supabase data stacks
 
 ---
 
 ### 🚀 Currently building
 - **Echo (ValtricAI)** — an **AI data-scientist agent** for SMB analytics and reporting  
   _FastAPI · RAG · Supabase · Redis_
+
 - **LLMs-as-Consultants workflows** — prototyping ops for SMB/gov engagements  
   _n8n · Node.js · evals · structured output_
+
 - **TinyLM-Scaling** — minimal GPT + empirical scaling law runs  
-  _NumPy · PyTorch-lite variants · training loops from scratch_
+  _NumPy · custom training loops from scratch_
 
 ---
 
@@ -47,18 +49,21 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 ---
 
 ### 📌 Selected Projects
-- **ValtricAI – “LLMs as consultants”**  
+- **ValtricAI — “LLMs as consultants”**  
   Workflows and agents for SMB/gov use cases.  
-  Repo: https://github.com/Hussain0327/valtric-consulting-ai
+  → [Repository](https://github.com/Hussain0327/valtric-consulting-ai)  
+  _Impact: faster first-pass analyses for small ops teams._
 
 - **Riona Agent**  
   Website agent integration with cleaner prompt routing + structured responses.  
-  Repo: https://github.com/Hussain0327/riona
+  → [Repository](https://github.com/Hussain0327/riona)  
+  _Impact: reduces operator prompt churn; easier A/B of prompts._
 
 - **TinyLM-Scaling**  
   Minimal GPT implementation + scaling law experiments & logs.  
-  Repo: https://github.com/Hussain0327/Ai-Research
+  → [Repository](https://github.com/Hussain0327/Ai-Research)  
   <!-- Consider renaming repo to tinylm-scaling for clarity/SEO -->
+  _Goal: hands-on understanding of scaling behavior via simple runs._
 
 ---
 
@@ -68,7 +73,7 @@ Say hi → **hello@valtricai.com**
 
 ---
 
-<!-- Optional stat cards (keep if you’re comfortable showing activity) -->
+<!-- Optional stat cards (show activity if you like) -->
 <p align="left">
   <img alt="GitHub stats" height="160" src="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true&theme=transparent&hide_title=true" />
   <img alt="Top languages" height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&theme=transparent&hide_title=true" />
