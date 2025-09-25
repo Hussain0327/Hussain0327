@@ -1,59 +1,76 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+there!+👋;I'm+Raja+Hussain;Welcome+to+my+GitHub&center=true&size=30">
+    <img alt="Hello, I'm Raja Hussain" src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+there!+👋;I'm+Raja+Hussain;Welcome+to+my+GitHub&center=true&size=30">
   </a>
 </h1>
-
-### 👋 **Welcome**
-
-I’m **Raja Hussain** CS & Math major and founder of **ValtricAI**. I build applied AI agents, lean ML systems, and pragmatic software.
-
----
-
-### 🚀 **Currently Working On**
-- **Echo (ValtricAI)** — AI Data scientist.
-- **Full stack consulting firm startup** — prototyping “LLMs instead of consulting” workflows for SMB/gov.
-- **TinyLM-Scaling** — from-scratch GPT + scaling law experiments.
-
----
-
-### 🧠 **Focus & Interests**
-- Conversational AI, retrieval/RAG, multi-agent routing
-- FastAPI backends, automations orchestration, Supabase data stacks
-- Research-driven engineering
+<h1 align="center">Raja Hussain</h1>
+<p align="center">
+  CS & Math freshman · Founder @ ValtricAI · Applied AI agents & lean ML systems
+</p>
+<p align="center">
+  <a href="https://valtricai.com">
+    <img alt="Website" src="https://img.shields.io/badge/Website-valtricai.com-2ea44f?logo=google-chrome&logoColor=white">
+  </a>
+  <a href="mailto:hello@valtricai.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-hello@valtricai.com-1d72b8?logo=gmail&logoColor=white">
+  </a>
+  <a href="https://www.linkedin.com/in/raja-hussain-b69a252a9/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Raja%20Hussain-0a66c2?logo=linkedin&logoColor=white">
+  </a>
+</p>
 
 ---
 
-### 🧰 **Tech Stack**
+### 👋 About
+I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I build **applied AI agents**, lean ML backends, and practical automation for real users.
 
+- Learning in public: small, shippable projects > theory only
+- Interested in: conversational AI, RAG, agent routing, FastAPI backends, Supabase data stacks
+
+---
+
+### 🚀 Currently building
+- **Echo (ValtricAI)** — an **AI data-scientist agent** for SMB analytics and reporting  
+  _FastAPI · RAG · Supabase · Redis_
+- **LLMs-as-Consultants workflows** — prototyping ops for SMB/gov engagements  
+  _n8n · Node.js · evals · structured output_
+- **TinyLM-Scaling** — minimal GPT + empirical scaling law runs  
+  _NumPy · PyTorch-lite variants · training loops from scratch_
+
+---
+
+### 🧰 Stack
 **Languages:** Python · TypeScript/JavaScript · SQL  
-**Frameworks:** FastAPI · Flask · Node.js · n8n  
+**Backends:** FastAPI · Flask · Node.js · n8n  
 **Data/ML:** NumPy · pandas · scikit-learn · vector search/RAG  
-**Infra:** Supabase · Redis · Docker · GitHub Actions · Vercel/Netlify
+**Infra/DevOps:** Supabase · Redis · Docker · GitHub Actions · Vercel/Netlify
 
 ---
 
-### 📌 **Selected Projects**
-
-- **ValtricAI** — Prototyping “LLMs instead of consulting” workflows for SMB/gov.  
+### 📌 Selected Projects
+- **ValtricAI – “LLMs as consultants”**  
+  Workflows and agents for SMB/gov use cases.  
   Repo: https://github.com/Hussain0327/valtric-consulting-ai
 
-- **Riona Agent** — Website AI agent integration, prompt routing cleanup.  
+- **Riona Agent**  
+  Website agent integration with cleaner prompt routing + structured responses.  
   Repo: https://github.com/Hussain0327/riona
 
-- **TinyLM-Scaling** — Minimal GPT with empirical scaling law runs.  
+- **TinyLM-Scaling**  
+  Minimal GPT implementation + scaling law experiments & logs.  
   Repo: https://github.com/Hussain0327/Ai-Research
+  <!-- Consider renaming repo to tinylm-scaling for clarity/SEO -->
 
 ---
 
-### 💼 **Open To**
-**AI/ML/SWE internships** and research-oriented roles. Preference for applied agent systems and backend ML infra.
+### 💼 Open to
+**AI/ML/SWE internships** and research-oriented roles. Prefer applied agent systems & backend ML infra.  
+Say hi → **hello@valtricai.com**
 
 ---
 
-### 🌐 **Connect**
-- **Website:** https://valtricai.com  
-- **Email:** hello@valtricai.com  
-- **LinkedIn:** https://www.linkedin.com/in/raja-hussain-b69a252a9/
-
----
+<!-- Optional stat cards (keep if you’re comfortable showing activity) -->
+<p align="left">
+  <img alt="GitHub stats" height="160" src="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true&theme=transparent&hide_title=true" />
+  <img alt="Top languages" height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&theme=transparent&hide_title=true" />
+</p>
