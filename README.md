@@ -3,7 +3,6 @@
     <img alt="Hello, I'm Raja Hussain" src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+there!+👋;I'm+Raja+Hussain;Welcome+to+my+GitHub&center=true&size=30">
   </a>
 </h1>
-<h1 align="center">Raja Hussain</h1>
 <p align="center">
   CS & Math freshman · Founder @ ValtricAI · Applied AI agents & lean ML systems
 </p>
