@@ -10,7 +10,7 @@
   <a href="https://valtricai.com">
     <img alt="Website" src="https://img.shields.io/badge/Website-valtricai.com-2ea44f?logo=google-chrome&logoColor=white">
   </a>
-  <a href="mailto:hello@valtricai.com">
+  <a href="mailto:rajahh7865@gmail.com">
     <img alt="Email" src="https://img.shields.io/badge/Email-hello@valtricai.com-1d72b8?logo=gmail&logoColor=white">
   </a>
   <a href="https://www.linkedin.com/in/raja-hussain-b69a252a9/">
