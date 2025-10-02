@@ -49,21 +49,27 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 ---
 
 ### 📌 Selected Projects
-- **ValtricAI — “LLMs as consultants”**  
+
+- **Newsletter AI Agent**  
+  Multi-stage LLM pipeline for research-backed newsletter generation with cited sources.  
+  → [Repository](https://github.com/Hussain0327/Newsletter_AI_Agent) | [Live Demo](https://hussain0327.github.io/Newsletter_AI_Agent/)  
+  *Tech: OpenAI/Anthropic APIs · Tavily search · Jinja2 · Tenacity retry logic*  
+  *Impact: Generates newsletters in <60s with real citations; showcases LLM orchestration patterns.*
+
+- **ValtricAI — "LLMs as consultants"**  
   Workflows and agents for SMB/gov use cases.  
   → [Repository](https://github.com/Hussain0327/valtric-consulting-ai)  
-  _Impact: faster first-pass analyses for small ops teams._
+  *Impact: faster first-pass analyses for small ops teams.*
 
 - **Riona Agent**  
   Website agent integration with cleaner prompt routing + structured responses.  
   → [Repository](https://github.com/Hussain0327/riona)  
-  _Impact: reduces operator prompt churn; easier A/B of prompts._
+  *Impact: reduces operator prompt churn; easier A/B of prompts.*
 
 - **TinyLM-Scaling**  
   Minimal GPT implementation + scaling law experiments & logs.  
   → [Repository](https://github.com/Hussain0327/Ai-Research)  
-  <!-- Consider renaming repo to tinylm-scaling for clarity/SEO -->
-  _Goal: hands-on understanding of scaling behavior via simple runs._
+  *Goal: hands-on understanding of scaling behavior via simple runs.*
 
 ---
 
