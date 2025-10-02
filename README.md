@@ -75,7 +75,7 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 
 ### 💼 Open to
 **AI/ML/SWE internships** and research-oriented roles. Prefer applied agent systems & backend ML infra.  
-Say hi → **hello@valtricai.com**
+Say hi → **rajahh7865@gmail.com**
 
 ---
 
