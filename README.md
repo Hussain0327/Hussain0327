@@ -60,7 +60,7 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 
 - **Newsletter AI Agent**  
   Multi-stage LLM pipeline for research-backed newsletter generation with cited sources.  
-  → <a href="https://github.com/Hussain0327/Newsletter_AI_Agent">Repository</a> | <a href="https://hussain0327.github.io/Newsletter_AI_Agent/">Live Demo</a>  
+  → <a href="https://github.com/Hussain0327/Newsletter_AI_Agent">Repository</a> | <a href="https://hussain0327.github.io/Research-agent/">Live Demo</a>  
   _Tech: OpenAI/Anthropic APIs · Tavily search · Jinja2 · Tenacity retry logic_  
   _Impact: Generates newsletters in &lt; 60s with real citations; showcases LLM orchestration patterns._
 
