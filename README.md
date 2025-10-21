@@ -38,7 +38,7 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 - **LLMs-as-Consultants workflows** — prototyping ops for SMB/gov engagements  
   _n8n · Node.js · evals · structured output_ — <a href="https://github.com/Hussain0327/valtric-consulting-ai">repo</a>
 
-- **TinyLM-Scaling** — minimal GPT + empirical scaling law runs  
+- **Scaling Law & SEAL** — Scaling-law research harness for tiny GPT-style LMs in PyTorch. 
   _NumPy · custom training loops from scratch_ — <a href="https://github.com/Hussain0327/Ai-Research">repo</a>
 
 ---
