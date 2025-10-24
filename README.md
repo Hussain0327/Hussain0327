@@ -82,21 +82,41 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 ---
 
 ### 💼 Open to
-**AI/ML/SWE internships** and research-oriented roles. Prefer applied agent systems & backend ML infra.  
+**SWE/AI/ML internships** and research-oriented roles.  
 Say hi → **<a href="mailto:rajahh7865@gmail.com">rajahh7865@gmail.com</a>**
 
 ---
 
 ### 🏆 Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Hussain0327&theme=flat&no-frame=true&margin-w=8" alt="trophies" />
+  <picture>
+    <source srcset="https://github-profile-trophy.vercel.app/?username=Hussain0327&theme=tokyonight&no-frame=true&margin-w=8" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-profile-trophy.vercel.app/?username=Hussain0327&theme=flat&no-frame=true&margin-w=8" media="(prefers-color-scheme: light)" />
+    <img src="https://github-profile-trophy.vercel.app/?username=Hussain0327&no-frame=true&margin-w=8" alt="trophies" />
+  </picture>
 </p>
 
+---
+
 ### 📊 GitHub Stats
+
 <p align="center">
-  <img alt="GitHub stats" height="160" src="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_title=true" />
-  <img alt="Top languages" height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&theme=transparent&hide_title=true" />
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true&hide=issues&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&theme=tokyonight&cache_seconds=7200" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true&hide=issues&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&theme=default&cache_seconds=7200" media="(prefers-color-scheme: light)" />
+    <img alt="GitHub stats" height="165" src="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true&hide=issues&hide_title=true&rank_icon=github&cache_seconds=7200" />
+  </picture>
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&hide_title=true&langs_count=8&theme=tokyonight&cache_seconds=7200" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&hide_title=true&langs_count=8&theme=default&cache_seconds=7200" media="(prefers-color-scheme: light)" />
+    <img alt="Top languages" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&hide_title=true&langs_count=8&cache_seconds=7200" />
+  </picture>
 </p>
+
 <p align="center">
-  <img alt="GitHub streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Hussain0327&theme=default" />
+  <picture>
+    <source srcset="https://streak-stats.demolab.com?user=Hussain0327&theme=tokyonight&date_format=%5BY%20%5DM%20j&hide_border=true" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://streak-stats.demolab.com?user=Hussain0327&theme=default&date_format=%5BY%20%5DM%20j&hide_border=true" media="(prefers-color-scheme: light)" />
+    <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=Hussain0327&hide_border=true" />
+  </picture>
 </p>
