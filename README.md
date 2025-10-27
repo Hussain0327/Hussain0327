@@ -31,7 +31,7 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 
 ---
 
-### 🚀 Currently building
+### 🚀 Currently Building
 - **Echo (ValtricAI)** — **AI data-scientist agent** for SMB analytics and reporting  
   _FastAPI · RAG · Supabase · Redis_
 
@@ -42,16 +42,14 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
   _NumPy · custom training loops from scratch_ — <a href="https://github.com/Hussain0327/Ai-Research">repo</a>
 
 ---
-
 ### 🧰 Stack
-**Languages:** Python · TypeScript/JavaScript · SQL  
-**Backends:** FastAPI · Flask · Node.js · n8n  
-**Data/ML:** NumPy · pandas · scikit-learn · vector search/RAG  
+**Languages:** Python · C++ · Java · TypeScript · SQL  
+**AI:** PyTorch · NumPy · pandas · vector DBs (Supabase) · RAG 
+**Backends:** FastAPI · Flask · Node.js · n8n · REST APIs  
 **Infra/DevOps:** Supabase · Redis · Docker · GitHub Actions · Vercel/Netlify
 
-<!-- Icon row (clean + readable) -->
 <p>
-  <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions&perline=8" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,ts,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions&perline=8" />
 </p>
 
 ---
