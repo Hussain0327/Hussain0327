@@ -69,10 +69,10 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
   → <a href="https://github.com/Hussain0327/valtric-consulting-ai">Repository</a>  
   _Impact: faster first-pass analyses for small ops teams._
 
-- **Riona Agent**  
-  Website agent integration with cleaner prompt routing + structured responses.  
-  → <a href="https://github.com/Hussain0327/riona">Repository</a>  
-  _Impact: reduces operator prompt churn; easier A/B of prompts._
+- **SWE Security Orchestrator**  
+  Unified framework combining software engineering automation and cybersecurity analysis.  
+  → <a href="https://github.com/Hussain0327/swe-security-orchestrator">Repository</a>  
+  _Impact: automates full-stack engineering and threat analysis workflows; built from the original n8n multi-agent research system._
 
 - **TinyLM-Scaling**  
   Minimal GPT implementation + scaling law experiments & logs.  
