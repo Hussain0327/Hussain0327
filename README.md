@@ -42,6 +42,7 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
   _NumPy · custom training loops from scratch_ — <a href="https://github.com/Hussain0327/Ai-Research">repo</a>
 
 ---
+
 ### 🧰 Stack
 **Languages:** Python · C++ · Java · TypeScript · SQL  
 **AI:** PyTorch · NumPy · pandas · vector DBs · RAG
