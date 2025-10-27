@@ -87,13 +87,13 @@ Say hi → **<a href="mailto:rajahh7865@gmail.com">rajahh7865@gmail.com</a>**
 
 ---
 
-### 🏆 Trophies
+### 🏅 Highlights
 <p align="center">
-  <picture>
-    <source srcset="https://github-profile-trophy.vercel.app/?username=Hussain0327&theme=tokyonight&no-frame=true&margin-w=8" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-profile-trophy.vercel.app/?username=Hussain0327&theme=flat&no-frame=true&margin-w=8" media="(prefers-color-scheme: light)" />
-    <img src="https://github-profile-trophy.vercel.app/?username=Hussain0327&no-frame=true&margin-w=8" alt="trophies" />
-  </picture>
+  <img src="https://github-contributor-stats.vercel.app/api?username=Hussain0327&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="GitHub contribution stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hussain0327&theme=tokyonight" alt="profile summary" />
 </p>
 
 ---
