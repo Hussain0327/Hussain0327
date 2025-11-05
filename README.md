@@ -81,19 +81,14 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
   _Impact: Generates newsletters in &lt; 60s with real citations; showcases LLM orchestration patterns._
 
 - **ValtricAI — "LLMs as consultants"**  
-  Workflows and agents for SMB/gov use cases.  
-  → <a href="https://github.com/Hussain0327/valtric-consulting-ai">Repository</a>  
+  Workflows and agents for SMB/gov use cases. Used in production at <a href="https://valtricconsulting.com/">Valtric Consulting</a> via a customized build of <em>Business Intelligence Orchestrator v2.0</em> (<code>multi_agent_workflow</code>).  
+  → <a href="https://github.com/Hussain0327/valtric-consulting-ai">Repository</a> | <a href="https://valtricconsulting.com/">Website</a>  
   _Impact: faster first-pass analyses for small ops teams._
 
 - **SWE Security Orchestrator**  
   Unified framework combining software engineering automation and cybersecurity analysis.  
   → <a href="https://github.com/Hussain0327/swe-security-orchestrator">Repository</a>  
   _Impact: automates full-stack engineering and threat analysis workflows; built from the original n8n multi-agent research system._
-
-- **TinyLM-Scaling**  
-  Minimal GPT implementation + scaling law experiments & logs.  
-  → <a href="https://github.com/Hussain0327/Ai-Research">Repository</a>  
-  _Goal: hands-on understanding of scaling behavior via simple runs._
 
 ---
 
