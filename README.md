@@ -35,11 +35,28 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 - **Echo (ValtricAI)** — **AI data-scientist agent** for SMB analytics and reporting  
   _FastAPI · RAG · Supabase · Redis_
 
-- **LLMs-as-Consultants workflows** — prototyping ops for SMB/gov engagements  
-  _n8n · Node.js · evals · structured output_ — <a href="https://github.com/Hussain0327/valtric-consulting-ai">repo</a>
+- **multi_agent_workflow — Business Intelligence Orchestrator v2.0**  
+  A production-ready multi-agent BI system with Research-Augmented Generation (RAG), **LangGraph** orchestration, and **GPT-5** integration.  
+  → <a href="https://github.com/Hussain0327/multi_agent_workflow">Repository</a>
 
-- **Scaling Law & SEAL** — Scaling-law research harness for tiny GPT-style LMs in PyTorch. 
+  <table>
+    <tr>
+      <th>Phase</th>
+      <th>Version</th>
+      <th>GPT-5</th>
+      <th>LangGraph</th>
+    </tr>
+    <tr>
+      <td>Public</td>
+      <td>v2.0</td>
+      <td>✅ Integrated</td>
+      <td>✅ Orchestrated</td>
+    </tr>
+  </table>
+
+- **Scaling Law & SEAL** — Scaling-law research harness for tiny GPT-style LMs in PyTorch.  
   _NumPy · custom training loops from scratch_ — <a href="https://github.com/Hussain0327/Ai-Research">repo</a>
+
 
 ---
 
