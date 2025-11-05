@@ -5,7 +5,13 @@
 </h1>
 
 <p align="center">
-  CS & Math freshman · Founder @ <a href="https://valtricai.com" target="_blank">ValtricAI</a> · Applied AI agents & lean ML systems
+  <a href="https://valtricconsulting.com">
+    <img alt="Startup: valtricconsulting.com" src="https://img.shields.io/badge/Startup-valtricconsulting.com-0b7285">
+  </a>
+</p>
+
+<p align="center">
+  CS & Math freshman · Founder @ <a href="https://valtricai.com" target="_blank">ValtricAI</a> · Building AI to replace Big 3 consulting for SMBs
 </p>
 
 <p align="center">
@@ -29,6 +35,8 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 - Learning in public: **small, shippable projects > theory only**
 - Interests: conversational AI, RAG, agent routing, FastAPI backends, Supabase data stacks
 
+**Facts:** Remote-friendly · EN (native) · Learning Japanese · Open to SWE/AI/ML internships · <a href="mailto:rajahh7865@gmail.com">Email</a> · <a href="https://valtricconsulting.com/">Startup</a>
+
 ---
 
 ### 🚀 Currently Building
@@ -36,39 +44,23 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
   _FastAPI · RAG · Supabase · Redis_
 
 - **multi_agent_workflow — Business Intelligence Orchestrator v2.0**  
-  A production-ready multi-agent BI system with Research-Augmented Generation (RAG), **LangGraph** orchestration, and **GPT-5** integration.  
-  → <a href="https://github.com/Hussain0327/multi_agent_workflow">Repository</a>
-
-  <table>
-    <tr>
-      <th>Phase</th>
-      <th>Version</th>
-      <th>GPT-5</th>
-      <th>LangGraph</th>
-    </tr>
-    <tr>
-      <td>Public</td>
-      <td>v2.0</td>
-      <td>✅ Integrated</td>
-      <td>✅ Orchestrated</td>
-    </tr>
-  </table>
+  A lean, production-ready **multi-agent BI system** that does the research + analysis with **RAG** and **LangGraph** using a **frontier model (GPT-5-class)** where it helps most.  
+  → <a href="https://github.com/Hussain0327/multi_agent_workflow">Repository</a>  
+  <sub>Production variant powers <a href="https://valtricconsulting.com/">Valtric Consulting</a>.</sub>
 
 - **Scaling Law & SEAL** — Scaling-law research harness for tiny GPT-style LMs in PyTorch.  
   _NumPy · custom training loops from scratch_ — <a href="https://github.com/Hussain0327/Ai-Research">repo</a>
 
-
 ---
 
 ### 🧰 Stack
-**Languages:** Python · C++ · Java · TypeScript · SQL  
-**AI:** PyTorch · NumPy · pandas · vector DBs · RAG
-**Backends:** FastAPI · Flask · Node.js · n8n · REST APIs  
-**Infra/DevOps:** Supabase · Redis · Docker · GitHub Actions · Vercel/Netlify
-
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,ts,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions&perline=8" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,ts,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8" />
 </p>
+
+**Production:** FastAPI + Supabase + Redis (RAG pipelines) · Postgres + pgvector · Docker deploys · Vercel + Netlify  
+**ML/AI:** PyTorch (training from scratch) · NumPy · pandas · LangGraph orchestration  
+**Languages:** Python · TypeScript · Java · C++ · SQL
 
 ---
 
@@ -78,12 +70,12 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
   Multi-stage LLM pipeline for research-backed newsletter generation with cited sources.  
   → <a href="https://github.com/Hussain0327/Newsletter_AI_Agent">Repository</a> | <a href="https://hussain0327.github.io/AI-topic-researcher/">Live Demo</a>  
   _Tech: OpenAI/Anthropic APIs · Tavily search · Jinja2 · Tenacity retry logic_  
-  _Impact: Generates newsletters in &lt; 60s with real citations; showcases LLM orchestration patterns._
+  _Impact: Impact: 60s research → newsletter (vs 2-3hr manual); cited sources_
 
 - **ValtricAI — "LLMs as consultants"**  
   Workflows and agents for SMB/gov use cases. Used in production at <a href="https://valtricconsulting.com/">Valtric Consulting</a> via a customized build of <em>Business Intelligence Orchestrator v2.0</em> (<code>multi_agent_workflow</code>).  
   → <a href="https://github.com/Hussain0327/valtric-consulting-ai">Repository</a> | <a href="https://valtricconsulting.com/">Website</a>  
-  _Impact: faster first-pass analyses for small ops teams._
+  _Impact: reduced first-pass analysis from ~2h → ~8–12m for pilot teams; fewer errors via structured outputs._
 
 - **SWE Security Orchestrator**  
   Unified framework combining software engineering automation and cybersecurity analysis.  
@@ -94,40 +86,21 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 
 ### 💼 Open to
 **SWE/AI/ML internships** and research-oriented roles.  
-Say hi → **<a href="mailto:rajahh7865@gmail.com">rajahh7865@gmail.com</a>**
-
----
-
-### 🏅 Highlights
-<p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Hussain0327&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="GitHub contribution stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hussain0327&theme=tokyonight" alt="profile summary" />
-</p>
+📫 Say hi → **<a href="mailto:rajahh7865@gmail.com">rajahh7865@gmail.com</a>**
 
 ---
 
 ### 📊 GitHub Stats
-
 <p align="center">
-  <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true&hide=issues&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&theme=tokyonight&cache_seconds=7200" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true&hide=issues&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&theme=default&cache_seconds=7200" media="(prefers-color-scheme: light)" />
-    <img alt="GitHub stats" height="165" src="https://github-readme-stats.vercel.app/api?username=Hussain0327&show_icons=true&hide=issues&hide_title=true&rank_icon=github&cache_seconds=7200" />
-  </picture>
-  <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&hide_title=true&langs_count=8&theme=tokyonight&cache_seconds=7200" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&hide_title=true&langs_count=8&theme=default&cache_seconds=7200" media="(prefers-color-scheme: light)" />
-    <img alt="Top languages" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&hide_title=true&langs_count=8&cache_seconds=7200" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source srcset="https://streak-stats.demolab.com?user=Hussain0327&theme=tokyonight&date_format=%5BY%20%5DM%20j&hide_border=true" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://streak-stats.demolab.com?user=Hussain0327&theme=default&date_format=%5BY%20%5DM%20j&hide_border=true" media="(prefers-color-scheme: light)" />
-    <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=Hussain0327&hide_border=true" />
-  </picture>
+  <img 
+    height="170"
+    src="https://streak-stats.demolab.com?user=Hussain0327&theme=tokyonight&hide_border=true"
+    alt="GitHub Streak"
+  />
+  <br/>
+  <img 
+    height="170" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&custom_title=Top%20Languages" 
+    alt="Top Languages"
+  />
 </p>
