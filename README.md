@@ -35,7 +35,7 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 - Learning in public: **small, shippable projects > theory only**
 - Interests: conversational AI, RAG, agent routing, FastAPI backends, Supabase data stacks
 
-**Facts:** Remote-friendly · EN (native) · Learning Japanese · Open to SWE/AI/ML internships · <a href="mailto:rajahh7865@gmail.com">Email</a> · <a href="https://valtricconsulting.com/">Startup</a>
+**Facts:** Open to SWE/AI/ML internships · <a href="mailto:rajahh7865@gmail.com">Email</a> · <a href="https://valtricconsulting.com/">Startup</a>
 
 ---
 
