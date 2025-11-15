@@ -54,13 +54,22 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 ---
 
 ### 🧰 Stack
+
 <p>
   <img src="https://skillicons.dev/icons?i=python,cpp,java,ts,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8" />
 </p>
 
-**Production:** FastAPI + Supabase + Redis (RAG pipelines) · Postgres + pgvector · Docker deploys · Vercel + Netlify  
-**ML/AI:** PyTorch (training from scratch) · NumPy · pandas · LangGraph orchestration  
-**Languages:** Python · TypeScript · Java · C++ · SQL
+<p>
+  <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-ML%20Hub-f9d371?logo=huggingface&logoColor=yellow" />
+  <img alt="Google Colab" src="https://img.shields.io/badge/Colab-GPU%20Notebooks-f9ab00?logo=googlecolab&logoColor=black" />
+</p>
+
+**Languages:** Python · JavaScript · C++ · Java · SQL  
+**AI and Machine Learning:** PyTorch · Hugging Face · LangChain · LangGraph  
+**Backend and APIs:** FastAPI · Flask · Node.js · REST · n8n · Supabase  
+**Infrastructure and DevOps:** Docker · Redis · GitHub Actions · Vercel · Netlify
+
+
 
 ---
 
