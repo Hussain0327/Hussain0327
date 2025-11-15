@@ -56,7 +56,7 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 ### 🧰 Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,ts,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8" />
 </p>
 
 <p>
@@ -100,15 +100,18 @@ I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img 
-    height="170"
-    src="https://streak-stats.demolab.com?user=Hussain0327&theme=tokyonight&hide_border=true"
-    alt="GitHub Streak"
-  />
+  <a href="https://git.io/streak-stats">
+    <img 
+      height="170"
+      src="https://streak-stats.demolab.com?user=Hussain0327&theme=tokyonight"
+      alt="GitHub Streak"
+    />
+  </a>
   <br/>
   <img 
     height="170" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&custom_title=Top%20Languages" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&langs_count=8&theme=tokyonight&custom_title=Top%20Languages"
     alt="Top Languages"
   />
 </p>
+
