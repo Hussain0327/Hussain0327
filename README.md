@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  CS & Math freshman · Founder @ <a href="https://valtricai.com" target="_blank">ValtricAI</a> · Building AI to replace Big 3 consulting for SMBs
+  CS and Math freshman • Founder @ <a href="https://valtricai.com" target="_blank">ValtricAI</a> • Building applied AI for SMB consulting
 </p>
 
 <p align="center">
@@ -24,94 +24,117 @@
   <a href="https://github.com/Hussain0327?tab=followers">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/Hussain0327?label=Follow&style=social">
   </a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Hussain0327&label=Profile%20views&color=0e75b6&style=flat" />
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Hussain0327&label=Profile%20views&color=0e75b6&style=flat">
 </p>
 
 ---
 
-### 👋 About
-I’m **Raja Hussain**, a **CS & Math freshman** and founder of **ValtricAI**. I build **applied AI agents**, lean ML systems, and practical automation for real users.
+# 👋 About Me
 
-- Learning in public: **small, shippable projects > theory only**
-- Interests: conversational AI, RAG, agent routing, FastAPI backends, Supabase data stacks
+I’m **Raja Hussain**, a CS and Math freshman and founder of **ValtricAI**.
 
-**Facts:** Open to SWE/AI/ML internships · <a href="mailto:rajahh7865@gmail.com">Email</a> · <a href="https://valtricconsulting.com/">Startup</a>
+I focus on:
 
----
+- Applied AI agents  
+- Lean ML systems  
+- Practical automation for real users  
+- FastAPI, RAG, agent routing, Supabase, and small shippable projects  
 
-### 🚀 Currently Building
-- **Echo (ValtricAI)** — **AI data-scientist agent** for SMB analytics and reporting  
-  _FastAPI · RAG · Supabase · Redis_
-
-- **multi_agent_workflow — Business Intelligence Orchestrator v2.0**  
-  A lean, production-ready **multi-agent BI system** that does the research + analysis with **RAG** and **LangGraph** using a **frontier model (GPT-5-class)** where it helps most.  
-  → <a href="https://github.com/Hussain0327/multi_agent_workflow">Repository</a>  
-  <sub>Production variant powers <a href="https://valtricconsulting.com/">Valtric Consulting</a>.</sub>
-
-- **Scaling Law & SEAL** — Scaling-law research harness for tiny GPT-style LMs in PyTorch.  
-  _NumPy · custom training loops from scratch_ — <a href="https://github.com/Hussain0327/Ai-Research">repo</a>
+**Open to:** SWE, AI, and ML internships  
+**Contact:** <a href="mailto:rajahh7865@gmail.com">Email</a> • <a href="https://valtricconsulting.com/">Startup</a>
 
 ---
 
-### 🧰 Stack
+# 🚀 What I Am Building
+
+### **Echo (ValtricAI)**  
+AI data scientist agent for SMB analytics and reporting  
+**Tech:** FastAPI, RAG, Supabase, Redis
+
+---
+
+### **Business Intelligence Orchestrator**  
+A lean multi agent BI system that handles research, retrieval, routing, and structured analysis.  
+**Highlights:**  
+- Production ready orchestration  
+- RAG integrated with LangGraph  
+- Uses frontier models where they make the biggest difference  
+
+**Repo:** <a href="https://github.com/Hussain0327/multi_agent_workflow">link</a>  
+**Production use:** Powers <a href="https://valtricconsulting.com/">Valtric Consulting</a>
+
+---
+
+### **Scaling Law and SEAL**  
+Scaling law research harness for tiny GPT style models.  
+**Tech:** PyTorch, NumPy, custom training loops  
+**Repo:** <a href="https://github.com/Hussain0327/Ai-Research">link</a>
+
+---
+
+# 💻 Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8">
 </p>
 
 <p>
-  <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-ML%20Hub-f9d371?logo=huggingface&logoColor=yellow" />
-  <img alt="Google Colab" src="https://img.shields.io/badge/Colab-GPU%20Notebooks-f9ab00?logo=googlecolab&logoColor=black" />
+  <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-ML%20Hub-f9d371?logo=huggingface&logoColor=yellow">
+  <img alt="Google Colab" src="https://img.shields.io/badge/Colab-GPU%20Notebooks-f9ab00?logo=googlecolab&logoColor=black">
 </p>
 
-**Languages:** Python · JavaScript · C++ · Java · SQL  
-**AI and ML:** PyTorch · Hugging Face · LangChain · LangGraph  
-**Backend:** FastAPI · Flask · Node.js · REST · n8n · Supabase  
-**Cloud and Data:** AWS (learning) · Postgres · pgvector · Supabase · Redis  
-**Infra:** Docker · GitHub Actions · Vercel · Netlify
+**Languages:** Python, JavaScript, C++, Java, SQL  
+**AI and ML:** PyTorch, Hugging Face, LangChain, LangGraph  
+**Backend:** FastAPI, Flask, Node.js, REST, n8n, Supabase  
+**Cloud and Data:** AWS, Postgres, pgvector, Supabase, Redis  
+**Infra:** Docker, GitHub Actions, Vercel, Netlify
 
 ---
 
-### 📌 Selected Projects
+# 📌 Selected Projects
 
-- **AI-topic-researcher**  
-  Multi-stage LLM pipeline for research-backed newsletter generation with cited sources.  
-  → <a href="https://github.com/Hussain0327/Newsletter_AI_Agent">Repository</a> | <a href="https://hussain0327.github.io/AI-topic-researcher/">Live Demo</a>  
-  _Tech: OpenAI/Anthropic APIs · Tavily search · Jinja2 · Tenacity retry logic_  
-  _Impact: Impact: 60s research → newsletter (vs 2-3hr manual); cited sources_
-
-- **ValtricAI — "LLMs as consultants"**  
-  Workflows and agents for SMB/gov use cases. Used in production at <a href="https://valtricconsulting.com/">Valtric Consulting</a> via a customized build of <em>Business Intelligence Orchestrator v2.0</em> (<code>multi_agent_workflow</code>).  
-  → <a href="https://github.com/Hussain0327/valtric-consulting-ai">Repository</a> | <a href="https://valtricconsulting.com/">Website</a>  
-  _Impact: reduced first-pass analysis from ~2h → ~8–12m for pilot teams; fewer errors via structured outputs._
-
-- **SWE Security Orchestrator**  
-  Unified framework combining software engineering automation and cybersecurity analysis.  
-  → <a href="https://github.com/Hussain0327/swe-security-orchestrator">Repository</a>  
-  _Impact: automates full-stack engineering and threat analysis workflows; built from the original n8n multi-agent research system._
+### **AI-topic-researcher**  
+Multi stage LLM pipeline for generating research backed newsletters with cited sources.  
+- **Repo:** <a href="https://github.com/Hussain0327/Newsletter_AI_Agent">link</a>  
+- **Demo:** <a href="https://hussain0327.github.io/AI-topic-researcher/">live</a>  
+- **Impact:** Turns hours of research into about one minute
 
 ---
 
-### 💼 Open to
-**SWE/AI/ML internships** and research-oriented roles.  
-📫 Say hi → **<a href="mailto:rajahh7865@gmail.com">rajahh7865@gmail.com</a>**
+### **ValtricAI • LLMs as consultants**  
+Workflows and agents for SMB and government analysis.  
+- Used in production at <a href="https://valtricconsulting.com/">Valtric Consulting</a>  
+- Built on a customized version of the BI Orchestrator  
+- **Repo:** <a href="https://github.com/Hussain0327/valtric-consulting-ai">link</a>  
+- **Impact:** First pass analysis time reduced from two hours to about twelve minutes
 
 ---
 
-### 📊 GitHub Stats
+### **SWE Security Orchestrator**  
+Automation framework for software engineering workflows and cybersecurity tasks.  
+**Repo:** <a href="https://github.com/Hussain0327/swe-security-orchestrator">link</a>
+
+---
+
+# 💼 Opportunities
+
+Open to **SWE, AI, and ML internships**  
+**Email:** <a href="mailto:rajahh7865@gmail.com">rajahh7865@gmail.com</a>
+
+---
+
+# 📊 GitHub Stats
+
 <p align="center">
   <a href="https://git.io/streak-stats">
     <img 
       height="170"
       src="https://streak-stats.demolab.com?user=Hussain0327&theme=tokyonight"
-      alt="GitHub Streak"
-    />
+      alt="GitHub Streak">
   </a>
-  <br/>
+  <br>
   <img 
     height="170" 
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&langs_count=8&theme=tokyonight&custom_title=Top%20Languages"
-    alt="Top Languages"
-  />
+    alt="Top Languages">
 </p>
-
