@@ -48,10 +48,9 @@ Right now I’m focused on:
 
 ## 🚀 What I’m Building
 
-### 🔹 Echo (ValtricAI)
-**AI data scientist for SMB analytics and reporting**
-
-📁 Repo: [Echo-AI “data scientist”](https://github.com/Hussain0327/Echo)
+### 🔹 Echo
+**AI data scientist for SMB analytics and reporting**  
+📁 Repo: [AI Data Scientist](https://github.com/Hussain0327/Echo)
 
 - Helps small businesses turn messy data + vague questions into **clear reports and next steps**  
 - Built around a reusable **multi-agent BI core** with RAG + structured outputs  
