@@ -33,7 +33,7 @@
 
 ## 👋 About Me
 
-I’m **Raja Hussain** — I like building **LLM agent systems, data workflows, and backend APIs** that actually ship.
+I’m **Raja Hussain**, I like building **LLM agent systems, data workflows, and backend APIs** that actually ship.
 
 Right now I’m focused on:
 
