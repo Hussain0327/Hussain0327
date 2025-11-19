@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img alt="Hello, I'm Raja Hussain" src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+there!+👋;I'm+Raja+Hussain;Welcome+to+my+GitHub&center=true&size=30">
+    <img alt="Hello, I'm Raja Hussain" src="https://readme-typing-svg.herokuapp.com/?lines=Hey,+I'm+Raja+Hussain;Applied+AI+%26+Data+Engineering;LLM+Agents+%7C+MLOps+%7C+Backend+APIs&center=true&size=26">
   </a>
 </h1>
 
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  CS and Math freshman • Founder @ <a href="https://valtricai.com" target="_blank">ValtricAI</a> • Building applied AI for SMB consulting
+  CS & Applied Math student • Founder @ <a href="https://valtricai.com" target="_blank">ValtricAI</a> • Applied AI / LLM agents / data workflows
 </p>
 
 <p align="center">
@@ -21,120 +21,97 @@
   <a href="mailto:rajahh7865@gmail.com">
     <img alt="Email" src="https://img.shields.io/badge/Email-rajahh7865@gmail.com-1d72b8?logo=gmail&logoColor=white">
   </a>
+  <a href="https://www.linkedin.com/in/raja-hussain-b69a252a9">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-raja--hussain-blue?logo=linkedin&logoColor=white">
+  </a>
   <a href="https://github.com/Hussain0327?tab=followers">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/Hussain0327?label=Follow&style=social">
   </a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Hussain0327&label=Profile%20views&color=0e75b6&style=flat">
 </p>
 
 ---
 
-# 👋 About Me
+## 👋 About Me
 
-I’m **Raja Hussain**, a CS and Math freshman and founder of **ValtricAI**.
+I’m **Raja Hussain** — I like building **LLM agent systems, data workflows, and backend APIs** that actually ship.
 
-I focus on:
+Right now I’m focused on:
 
-- Applied AI agents  
-- Lean ML systems  
-- Practical automation for real users  
-- FastAPI, RAG, agent routing, Supabase, and small shippable projects  
+- **Applied AI / LLMs:** multi-agent workflows, RAG, retrieval + reasoning  
+- **Data & MLOps:** pipelines, caching, monitoring, cost/latency tuning  
+- **Backend:** FastAPI, Postgres, Supabase, Redis, Docker, Cloudflare Workers  
 
-**Open to:** SWE, AI, and ML internships  
-**Contact:** <a href="mailto:rajahh7865@gmail.com">Email</a> • <a href="https://valtricconsulting.com/">Startup</a>
-
----
-
-# 🚀 What I Am Building
-
-### **Echo (ValtricAI)**  
-AI data scientist agent for SMB analytics and reporting  
-**Tech:** FastAPI, RAG, Supabase, Redis
+**Open to:** SWE / **Applied AI / ML** / **Data Engineering / MLOps** internships  
+**Best contact:** [Email](mailto:rajahh7865@gmail.com) • [ValtricAI](https://valtricai.com) • [Valtric Consulting](https://valtricconsulting.com)
 
 ---
 
-### **Business Intelligence Orchestrator**  
-A lean multi agent BI system that handles research, retrieval, routing, and structured analysis.  
-**Highlights:**  
-- Production ready orchestration  
-- RAG integrated with LangGraph  
-- Uses frontier models where they make the biggest difference  
+## 🚀 What I’m Building
 
-**Repo:** <a href="https://github.com/Hussain0327/multi_agent_workflow">link</a>  
-**Production use:** Powers <a href="https://valtricconsulting.com/">Valtric Consulting</a>
+### 🔹 Echo (ValtricAI)
+**AI “data scientist” for SMB analytics and reporting**
 
----
-
-### **Scaling Law and SEAL**  
-Scaling law research harness for tiny GPT style models.  
-**Tech:** PyTorch, NumPy, custom training loops  
-**Repo:** <a href="https://github.com/Hussain0327/Ai-Research">link</a>
+- Helps small businesses turn messy data + vague questions into **clear reports and next steps**  
+- Built around a reusable **multi-agent BI core** with RAG + structured outputs  
+- **Tech:** FastAPI, RAG, Supabase, Redis, Docker, GitHub Actions  
 
 ---
 
-# 💻 Tech Stack
+### 🔹 Business Intelligence Orchestrator  
+**Multi-agent BI system for research, analysis, and reporting**  
+📁 Repo: [Business-Intelligence-Orchestrator](https://github.com/Hussain0327/Business-Intelligence-Orchestrator)
+
+- Takes one natural-language business question → produces **JSON**, a **PowerPoint deck**, and an **Excel model**  
+- Coordinates **4 LLM agents** (market, ops, finance, lead gen) via **LangGraph** with shared context and retrieval grounding  
+- Made the pipeline ~**2.1× faster** and cut **compute cost ~90%** using Redis caching + smart routing between heavy/lightweight models  
+
+---
+
+### 🔹 SWE Security Orchestrator  
+**LLM workflow for code review + security analysis**  
+📁 Repo: [swe-security-orchestrator](https://github.com/Hussain0327/swe-security-orchestrator)
+
+- Orchestrates **5 agents** with shared memory + isolated execution to analyze code, propose fixes, and generate **security reports**  
+- Runs on **FastAPI** with orchestration moved to **Cloudflare Workers** to reduce **latency and cost**  
+- Adds simple **metrics** so I can compare different models and configs instead of guessing
+
+---
+
+### 🔹 Automated AI Researcher  
+**Research pipeline for deep-dive reports with citations**  
+📁 Repo: [AI-topic-researcher](https://github.com/Hussain0327/AI-topic-researcher)  
+🌐 Demo: [live](https://hussain0327.github.io/AI-topic-researcher/)
+
+- Cuts topic deep-dive time from ~**4 hours → ~20 minutes**  
+- Chains search, evidence collection, and templated report generation into one reusable **Python workflow**  
+- Keeps roughly **95% of citations valid** using validation + retry logic (Tenacity), so it behaves more like a system than a one-off script  
+
+---
+
+## 💻 Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8">
+  <img src="https://skillicons.dev/icons?i=python,java,js,cpp,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8">
 </p>
 
 <p>
-  <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-ML%20Hub-f9d371?logo=huggingface&logoColor=yellow">
+  <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-Models%20%26%20Datasets-f9d371?logo=huggingface&logoColor=yellow">
   <img alt="Google Colab" src="https://img.shields.io/badge/Colab-GPU%20Notebooks-f9ab00?logo=googlecolab&logoColor=black">
 </p>
 
 **Languages:** Python, JavaScript, C++, Java, SQL  
-**AI and ML:** PyTorch, Hugging Face, LangChain, LangGraph  
-**Backend:** FastAPI, Flask, Node.js, REST, n8n, Supabase  
-**Cloud and Data:** AWS, Postgres, pgvector, Supabase, Redis  
-**Infra:** Docker, GitHub Actions, Vercel, Netlify
+**Applied AI / ML:** PyTorch, Hugging Face, LangChain, LangGraph, RAG, vector search, OpenAI API  
+**Backend:** FastAPI, Flask, Node.js, REST, Supabase  
+**Data & Infra:** Postgres, Redis, Docker, GitHub Actions, Cloudflare Workers, Vercel, Netlify  
 
 ---
 
-# 📌 Selected Projects
+## 💼 For Recruiters & Collaborators
 
-### **AI-topic-researcher**  
-Multi stage LLM pipeline for generating research backed newsletters with cited sources.  
-- **Repo:** <a href="https://github.com/Hussain0327/Newsletter_AI_Agent">link</a>  
-- **Demo:** <a href="https://hussain0327.github.io/AI-topic-researcher/">live</a>  
-- **Impact:** Turns hours of research into about one minute
+- I like problems where there’s **messy data, vague questions, and a need for an actual shipped system**  
+- I’m comfortable owning things **end to end**: ingest → model/agents → backend/API → basic monitoring  
+- If you’re working on **AI platforms, data infrastructure, or agentic systems**, I’d love to talk
 
----
-
-### **ValtricAI • LLMs as consultants**  
-Workflows and agents for SMB and government analysis.  
-- Used in production at <a href="https://valtricconsulting.com/">Valtric Consulting</a>  
-- Built on a customized version of the BI Orchestrator  
-- **Repo:** <a href="https://github.com/Hussain0327/valtric-consulting-ai">link</a>  
-- **Impact:** First pass analysis time reduced from two hours to about twelve minutes
-
----
-
-### **SWE Security Orchestrator**  
-Automation framework for software engineering workflows and cybersecurity tasks.  
-**Repo:** <a href="https://github.com/Hussain0327/swe-security-orchestrator">link</a>
-
----
-
-# 💼 Opportunities
-
-Open to **SWE, AI, and ML internships**  
-**Email:** <a href="mailto:rajahh7865@gmail.com">rajahh7865@gmail.com</a>
-
----
-
-# 📊 GitHub Stats
-
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img 
-      height="170"
-      src="https://streak-stats.demolab.com?user=Hussain0327&theme=tokyonight"
-      alt="GitHub Streak">
-  </a>
-  <br>
-  <img 
-    height="170" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=compact&langs_count=8&theme=tokyonight&custom_title=Top%20Languages"
-    alt="Top Languages">
-</p>
+📩 **Email:** [rajahh7865@gmail.com](mailto:rajahh7865@gmail.com)  
+🐙 **GitHub:** you’re already here  
+🌐 **ValtricAI:** [valtricai.com](https://valtricai.com)
