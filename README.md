@@ -92,7 +92,7 @@ Right now I’m focused on:
 ## 💻 Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,java,js,cs,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8">
+  <img src="https://skillicons.dev/icons?i=python,mysql,ts,cs,nodejs,fastapi,flask,redis,postgres,docker,supabase,vercel,githubactions,pytorch&perline=8">
 </p>
 
 <p>
@@ -100,7 +100,7 @@ Right now I’m focused on:
   <img alt="Google Colab" src="https://img.shields.io/badge/Colab-GPU%20Notebooks-f9ab00?logo=googlecolab&logoColor=black">
 </p>
 
-**Languages:** Python, JavaScript, C#, Java, SQL  
+**Languages:** Python, Typescript, SQL, C#
 **Applied AI / ML:** PyTorch, Hugging Face, LangChain, LangGraph, RAG, vector search, OpenAI API  
 **Backend:** FastAPI, Flask, Node.js, REST, Supabase  
 **Data & Infra:** Postgres, Redis, Docker, GitHub Actions, Cloudflare Workers, Vercel, Netlify  
