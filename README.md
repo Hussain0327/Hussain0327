@@ -100,10 +100,10 @@ Right now I’m focused on:
   <img alt="Google Colab" src="https://img.shields.io/badge/Colab-GPU%20Notebooks-f9ab00?logo=googlecolab&logoColor=black">
 </p>
 
-**Languages:** Python, Typescript, SQL, C# 
-**Applied AI / ML:** PyTorch, Hugging Face, LangChain, LangGraph, RAG, vector search, OpenAI API  
-**Backend:** FastAPI, Flask, Node.js, REST, Supabase  
-**Data & Infra:** Postgres, Redis, Docker, GitHub Actions, Cloudflare Workers, Vercel, Netlify  
+**Languages:** Python, Typescript, SQL, C#<br>
+**AI/ML:** PyTorch, Hugging Face, LangChain, LangGraph, RAG, vector search, OpenAI API<br>
+**Backend:** FastAPI, Flask, Node.js, REST, Supabase<br>
+**Data & Infra:** Postgres, Redis, Docker, GitHub Actions, Cloudflare Workers, Vercel, Netlify
 
 ---
 
