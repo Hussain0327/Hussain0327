@@ -41,7 +41,6 @@ Right now I’m focused on:
 - **Data & MLOps:** pipelines, caching, monitoring, cost/latency tuning  
 - **Backend:** FastAPI, Postgres, Supabase, Redis, Docker, Cloudflare Workers  
 
-**Open to:** SWE / **Applied AI / ML** / **Data Engineering / MLOps** internships  
 **Best contact:** [Email](mailto:rajahh7865@gmail.com) • [ValtricAI](https://valtricai.com) • [Valtric Consulting](https://valtricconsulting.com)
 
 ---
