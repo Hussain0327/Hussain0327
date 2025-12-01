@@ -23,7 +23,6 @@
 </p>
 
 <p align="center">
-  <!-- AI-themed tech focus badges -->
   <img
     alt="Applied AI"
     src="https://img.shields.io/badge/Applied%20AI-LLMs%20%26%20Agents-412991?logo=openai&logoColor=white"
@@ -141,7 +140,7 @@ Right now I’m focused on:
 </p>
 
 **Core languages:**  
-- 🐍 **Python** (primary) – backend APIs, data pipelines, and applied AI/LLM work  
+- 🐍 **Python** – backend APIs, data pipelines, and applied AI/LLM work  
 - 🧮 **SQL** – Postgres/MySQL, queries, indexing, analytical reporting  
 - 🟦 **TypeScript** – React/Next UIs and type-safe full-stack work
 - 📊 **R** – statistical modeling, visualization (ggplot2), and exploratory data analysis 
