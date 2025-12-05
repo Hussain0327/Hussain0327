@@ -164,12 +164,6 @@ Right now I’m focused on:
 
 
 ## 💼 For Recruiters & Collaborators
-
-- I like problems with **messy data, vague questions, and pressure to ship a real, working system**  
-- I’m comfortable owning things **end to end**: ingest → models/agents → backend/API → basic monitoring & iteration  
-- I’m especially interested in **AI platforms, data infrastructure, and agentic systems** (multi-step, tool-using workflows)
-- Open to **internships, part-time roles, and collaborations** in applied AI, backend, or data engineering
-
 📩 **Email:** [rajahh7865@gmail.com](mailto:rajahh7865@gmail.com)  
 🐙 **GitHub:** you’re already here  
 🌐 **ValtricAI:** [valtricai.com](https://valtricai.com)
