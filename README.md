@@ -127,9 +127,10 @@ Right now I’m focused on:
 
 ## 💻 Tech Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,js,java,aws,mysql,nodejs,fastapi,flask,redis,docker,git,githubactions,supabase,cloudflare,vercel,netlify,pytorch&perline=9" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,mysql,aws,rust,fastapi,flask,redis,docker,git,githubactions,supabase,cloudflare,vercel,pytorch&perline=8" />
 </p>
+
 
 <p>
   <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-Models%20%26%20Datasets-f9d371?logo=huggingface&logoColor=yellow" />
@@ -141,9 +142,9 @@ Right now I’m focused on:
 
 **Core languages:**  
 - 🐍 **Python** – backend APIs, data pipelines, and applied AI/LLM work  
-- 🧮 **SQL** – Postgres/MySQL, queries, indexing, analytical reporting  
-- 🟦 **JavaScript** – React/Next UIs and type-safe full-stack work
-- ☕ **Java** – backend literacy 
+- ⚙️ **C++** – high-performance systems, data processing, and numerical computing  
+- 🧮 **SQL** – Postgres/MySQL, querying, indexing, and analytical reporting
+- ☕ **Java** – backend engineering, OOP foundations, and enterprise stacks 
 
 **AI / ML:**  
 - PyTorch · Hugging Face · LangChain · LangGraph  
