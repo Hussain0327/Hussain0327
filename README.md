@@ -100,13 +100,16 @@ Turns messy business data into clear insights and reports — because small busi
 
 ---
 
-### 🔹 Business Intelligence Orchestrator  
-**Multi-agent BI system for research, analysis, and reporting**  
+### 🔹 Business Intelligence Orchestrator
+
+**Multi-agent BI system for research, analysis, and reporting**                 
 📁 Repo: [Business-Intelligence-Orchestrator](https://github.com/Hussain0327/Business-Intelligence-Orchestrator)
 
-- Takes one natural-language business question → produces **JSON**, a **PowerPoint deck**, and an **Excel model**  
-- Coordinates **4 LLM agents** (market, ops, finance, lead gen) via **LangGraph** with shared context and retrieval grounding  
-- Made the pipeline ~**2.1× faster** and cut **compute cost by ~90%** using Redis caching + smart routing between heavy/lightweight models  
+* Takes one natural-language business question → produces **structured JSON**, a **PowerPoint deck**, and an **Excel model**
+* Coordinates **4 LLM agents** (market, ops, finance, lead gen) via **LangGraph** with retrieval grounding
+* Achieved **2.1× faster execution** and **86% cost savings** via Redis caching + hybrid DeepSeek/GPT-5 routing
+* Built full Dockerized deployment with **FastAPI**, **LangGraph**, **Redis**, and **benchmark evaluation**
+  
 
 ---
 
