@@ -87,9 +87,16 @@ Right now I’m focused on:
 **AI data scientist for SMB analytics and reporting**  
 📁 Repo: [Echo](https://github.com/Hussain0327/Echo)
 
-- Helps small businesses turn messy data + vague questions into **clear reports and next steps**  
-- Built around a reusable **multi-agent BI core** with RAG + structured outputs  
-- **Tech:** FastAPI, RAG, Supabase, Redis, Docker, GitHub Actions  
+Turns messy business data into clear insights and reports — because small businesses deserve good data tools too.
+
+- Cleans and validates raw business data automatically (dates, currency, booleans, column names)
+- Computes 20+ business metrics deterministically (MRR, ARR, CAC, LTV, conversion funnels)
+- Runs A/B test analysis with z-tests, confidence intervals, and power analysis
+- Tracks time saved, satisfaction, and accuracy across user sessions
+
+**Impact:** replaces a 2-hour manual spreadsheet workflow with a 15-minute automated analysis.  
+**Tech:** FastAPI, Next.js 15, Supabase, Redis, Docker, GitHub Actions, DeepSeek 3.2
+
 
 ---
 
