@@ -141,7 +141,6 @@ Turns messy business data into clear insights and reports — because small busi
   <img src="https://skillicons.dev/icons?i=python,cpp,java,mysql,aws,rust,fastapi,flask,redis,docker,git,githubactions,supabase,cloudflare,vercel,pytorch&perline=8" />
 </p>
 
-
 <p>
   <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-Models%20%26%20Datasets-f9d371?logo=huggingface&logoColor=yellow" />
   <img alt="LangChain" src="https://img.shields.io/badge/LangChain-LLM%20Pipelines-0f9d58" />
@@ -150,28 +149,30 @@ Turns messy business data into clear insights and reports — because small busi
   <img alt="Google Colab" src="https://img.shields.io/badge/Colab-GPU%20Notebooks-f9ab00?logo=googlecolab&logoColor=black" />
 </p>
 
-**Core languages:**  
+**Core languages:**
+
 - 🐍 **Python** – backend APIs, data pipelines, and applied AI/LLM work  
 - ⚙️ **C++** – high-performance systems, data processing, and numerical computing  
 - 🧮 **SQL** – Postgres/MySQL, querying, indexing, and analytical reporting
 - ☕ **Java** – backend engineering, OOP foundations, and enterprise stacks 
 
-**AI / ML:**  
+**AI / ML:**
+
 - PyTorch · Hugging Face · LangChain · LangGraph  
 - RAG, vector search, embeddings  
 - OpenAI API & LLM-based agents
 
-**Backend & APIs:**  
+**Backend & APIs:**
+
 - FastAPI · Flask · Node.js (Express/TS)  
 - RESTful APIs, webhooks, background jobs  
 - Supabase for auth/storage and quick backends
 
-**Data & Infra:**  
+**Data & Infra:**
+
 - PostgreSQL · MySQL · Redis (caching & queues)  
 - Docker · GitHub Actions (CI/CD)  
 - Cloudflare Workers · Vercel · Netlify for deployment & edge functions
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=donut&hide=jupyter%20notebook)
 
 ---
 
