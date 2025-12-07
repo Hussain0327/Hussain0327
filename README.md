@@ -171,7 +171,7 @@ Turns messy business data into clear insights and reports — because small busi
 - Docker · GitHub Actions (CI/CD)  
 - Cloudflare Workers · Vercel · Netlify for deployment & edge functions
 
-
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Hussain0327&layout=donut&hide=jupyter%20notebook)
 
 ---
 
