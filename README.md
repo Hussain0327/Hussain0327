@@ -152,7 +152,7 @@ Turns messy business data into clear insights and reports — because small busi
 **Core languages:**
 
 - 🐍 **Python** – backend APIs, data pipelines, and applied AI/LLM work  
-- ⚙️ **C#+** – high-performance gameplay systems, data-driven architecture, simulation logic, and scalable systems engineering     
+- ⚙️ **C#** – high-performance gameplay systems, data-driven architecture, simulation logic, and scalable systems engineering     
 - 🧮 **SQL** – Postgres/MySQL, querying, indexing, and analytical reporting
 - ☕ **Java** – backend engineering, OOP foundations, and enterprise stacks 
 
