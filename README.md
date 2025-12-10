@@ -83,20 +83,21 @@ Right now I’m focused on:
 
 ## 🚀 What I’m Building
 
-### 🔹 Echo  
+### 🔹 Echo
+
 **AI data scientist for SMB analytics and reporting**  
-📁 Repo: [Echo](https://github.com/Hussain0327/Echo)
+📁 Repo: [Echo](https://github.com/Hussain0327/Echo)  
+🌐 Demo: [echo-analytics.streamlit.app](https://echo-analytics.streamlit.app)
 
-Turns messy business data into clear insights and reports — because small businesses deserve good data tools too.
+Upload CSVs, get cleaned metrics and trend analysis through either a Streamlit dashboard for BI analysis or a Next.js app for conversational analytics.
 
-- Cleans and validates raw business data automatically (dates, currency, booleans, column names)
-- Computes 20+ business metrics deterministically (MRR, ARR, CAC, LTV, conversion funnels)
-- Runs A/B test analysis with z-tests, confidence intervals, and power analysis
-- Tracks time saved, satisfaction, and accuracy across user sessions
+- ETL pipeline with Prefect, dbt, and Great Expectations
+- 20+ deterministic SQL metrics with 238 unit tests (CTEs, window functions, RFM segmentation)
+- FastAPI backend with PostgreSQL and Redis
+- Dual interfaces: Streamlit dashboard + Next.js conversational app
 
-**Impact:** replaces a 2-hour manual spreadsheet workflow with a 15-minute automated analysis.  
-**Tech:** FastAPI, Next.js 15, Supabase, Redis, Docker, GitHub Actions, DeepSeek 3.2
-
+**Impact:** Replaces a 2-hour manual spreadsheet workflow with 15-minute automated analysis.  
+**Tech:** FastAPI, Next.js, Streamlit, dbt, Prefect, PostgreSQL, DeepSeek
 
 ---
 
