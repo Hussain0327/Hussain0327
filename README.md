@@ -8,68 +8,34 @@
 </h1>
 
 <p align="center">
-  <a href="https://valtricconsulting.com">
-    <img
-      alt="Startup: valtricconsulting.com"
-      src="https://img.shields.io/badge/Startup-valtricconsulting.com-0b7285?logo=github&logoColor=white"
-    />
-  </a>
-</p>
-
-<p align="center">
-  🧠 CS & Applied Math student • 🤖 Founder @
+  🧠 CS & Applied Math student • 🤖 Builder @
   <a href="https://valtricai.com" target="_blank">ValtricAI</a> •
-  Applied AI · LLM Agents · Data & MLOps · Backend Systems
-</p>
-
-<p align="center">
-  <img
-    alt="Applied AI"
-    src="https://img.shields.io/badge/Applied%20AI-LLMs%20%26%20Agents-412991?logo=openai&logoColor=white"
-  />
-  <img
-    alt="MLOps"
-    src="https://img.shields.io/badge/MLOps-Pipelines%20%26%20Monitoring-0f766e?logo=githubactions&logoColor=white"
-  />
-  <img
-    alt="Backend Systems"
-    src="https://img.shields.io/badge/Backend-APIs%20%26%20Infra-334155?logo=fastapi&logoColor=white"
-  />
+  Applied AI · Data Systems · Backend Infra
 </p>
 
 <p align="center">
   <a href="https://valtricai.com">
-    <img
-      alt="Website"
-      src="https://img.shields.io/badge/Website-valtricai.com-2ea44f?logo=google-chrome&logoColor=white"
-    />
+    <img alt="Website" src="https://img.shields.io/badge/Website-valtricai.com-2ea44f?logo=google-chrome&logoColor=white" />
+  </a>
+  <a href="https://valtricconsulting.com">
+    <img alt="Startup" src="https://img.shields.io/badge/Startup-valtricconsulting.com-0b7285?logo=github&logoColor=white" />
   </a>
   <a href="mailto:rajahh7865@gmail.com">
-    <img
-      alt="Email"
-      src="https://img.shields.io/badge/Email-rajahh7865@gmail.com-1d72b8?logo=gmail&logoColor=white"
-    />
+    <img alt="Email" src="https://img.shields.io/badge/Email-rajahh7865@gmail.com-1d72b8?logo=gmail&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/raja-hussain-b69a252a9">
-    <img
-      alt="LinkedIn"
-      src="https://img.shields.io/badge/LinkedIn-raja--hussain-blue?logo=linkedin&logoColor=white"
-    />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-raja--hussain-blue?logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/Hussain0327?tab=followers">
-    <img
-      alt="GitHub followers"
-      src="https://img.shields.io/github/followers/Hussain0327?label=Follow&style=social"
-    />
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/Hussain0327?label=Follow&style=social" />
   </a>
 </p>
-
 
 ---
 
 ## 👋 About Me
 
-I’m **Raja Hussain**. I build **LLM agent systems, data workflows, and backend APIs** that actually ship.
+I’m **Raja Hussain**, I build **LLM agent systems, data workflows, and backend APIs** that actually ship.
 
 Right now I’m focused on:
 
@@ -77,40 +43,39 @@ Right now I’m focused on:
 - **Data & MLOps:** pipelines, caching, monitoring, cost/latency tuning  
 - **Backend:** FastAPI, Postgres, Supabase, Redis, Docker, Cloudflare Workers  
 
-**Best contact:** [Email](mailto:rajahh7865@gmail.com) • [ValtricAI](https://valtricai.com) • [Valtric Consulting](https://valtricconsulting.com)
+📬 **Best contact:** [Email](mailto:rajahh7865@gmail.com) • [ValtricAI](https://valtricai.com)
 
 ---
 
 ## 🚀 What I’m Building
 
 ### 🔹 Echo
-
 **AI data scientist for SMB analytics and reporting**  
+→ Used for internal analytics demos at ValtricAI  
 📁 Repo: [Echo](https://github.com/Hussain0327/Echo)  
 🌐 Demo: [echo-analytics.streamlit.app](https://echo-analytics.streamlit.app)
 
 Upload CSVs, get cleaned metrics and trend analysis through either a Streamlit dashboard for BI analysis or a Next.js app for conversational analytics.
 
-- ETL pipeline with Prefect, dbt, and Great Expectations
-- 20+ deterministic SQL metrics with 238 unit tests (CTEs, window functions, RFM segmentation)
-- FastAPI backend with PostgreSQL and Redis
-- Dual interfaces: Streamlit dashboard + Next.js conversational app
+- ETL pipeline with Prefect, dbt, and Great Expectations  
+- 20+ deterministic SQL metrics with 238 unit tests (CTEs, window functions, RFM segmentation)  
+- FastAPI backend with PostgreSQL and Redis  
+- Dual interfaces: Streamlit dashboard + Next.js conversational app  
 
-**Impact:** Replaces a 2-hour manual spreadsheet workflow with 15-minute automated analysis.  
+**Impact:** Replaces a 2-hour manual spreadsheet workflow with a 15-minute automated analysis.  
 **Tech:** FastAPI, Next.js, Streamlit, dbt, Prefect, PostgreSQL, DeepSeek
 
 ---
 
 ### 🔹 Business Intelligence Orchestrator
-
-**Multi-agent BI system for research, analysis, and reporting**                 
+**Multi-agent BI system for research, analysis, and reporting**  
+→ Benchmarked on 10+ internal data projects  
 📁 Repo: [Business-Intelligence-Orchestrator](https://github.com/Hussain0327/Business-Intelligence-Orchestrator)
 
-* Takes one natural-language business question → produces **structured JSON**, a **PowerPoint deck**, and an **Excel model**
-* Coordinates **4 LLM agents** (market, ops, finance, lead gen) via **LangGraph** with retrieval grounding
-* Achieved **2.1× faster execution** and **86% cost savings** via Redis caching + hybrid DeepSeek/GPT-5 routing
-* Built full Dockerized deployment with **FastAPI**, **LangGraph**, **Redis**, and **benchmark evaluation**
-  
+- Takes one natural-language business question → produces structured JSON, a PowerPoint deck, and an Excel model  
+- Coordinates 4 LLM agents (market, ops, finance, lead gen) via **LangGraph** with retrieval grounding  
+- Achieved **2.1× faster execution** and **86% cost savings** via Redis caching + hybrid DeepSeek/GPT-5 routing  
+- Dockerized deployment with **FastAPI**, **LangGraph**, **Redis**, and performance benchmarking  
 
 ---
 
@@ -118,9 +83,9 @@ Upload CSVs, get cleaned metrics and trend analysis through either a Streamlit d
 **LLM workflow for code review + security analysis**  
 📁 Repo: [swe-security-orchestrator](https://github.com/Hussain0327/swe-security-orchestrator)
 
-- Orchestrates **5 agents** with shared memory + isolated execution to analyze code, propose fixes, and generate **security reports**  
-- Runs on **FastAPI**, with orchestration moved to **Cloudflare Workers** to reduce **latency and cost**  
-- Adds lightweight **metrics** so I can compare models and configs instead of guessing
+- Orchestrates 5 agents with shared memory + isolated execution to analyze code, propose fixes, and generate security reports  
+- Runs on **FastAPI**, orchestrated with **Cloudflare Workers** for lower latency and cost  
+- Adds lightweight metrics for comparing model and configuration performance  
 
 ---
 
@@ -129,17 +94,16 @@ Upload CSVs, get cleaned metrics and trend analysis through either a Streamlit d
 📁 Repo: [AI-topic-researcher](https://github.com/Hussain0327/AI-topic-researcher)  
 🌐 Demo: [live](https://hussain0327.github.io/AI-topic-researcher/)
 
-- Cuts topic deep-dive time from ~**4 hours → ~20 minutes**  
-- Chains search, evidence collection, and templated report generation into one reusable **Python workflow**  
-- Keeps roughly **95% of citations valid** using validation + retry logic (Tenacity), so it behaves more like a system than a one-off script
-
+- Cuts topic deep-dive time from ~4 hours → ~20 minutes  
+- Chains search, evidence collection, and templated report generation into one reusable Python workflow  
+- Keeps roughly **95%** of citations valid through validation and retry logic  
 
 ---
 
 ## 💻 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,mysql,aws,rust,fastapi,flask,redis,docker,git,githubactions,supabase,cloudflare,vercel,pytorch&perline=8" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,mysql,fastapi,flask,redis,docker,git,githubactions,supabase,cloudflare,vercel,pytorch&perline=8" />
 </p>
 
 <p>
@@ -150,35 +114,21 @@ Upload CSVs, get cleaned metrics and trend analysis through either a Streamlit d
   <img alt="Google Colab" src="https://img.shields.io/badge/Colab-GPU%20Notebooks-f9ab00?logo=googlecolab&logoColor=black" />
 </p>
 
-**Core languages:**
+**Core languages:**  
+🐍 **Python** – backend APIs, data pipelines, and applied AI/LLM work  
+⚙️ **C++** – systems and backend infrastructure  
+🧮 **SQL** – Postgres/MySQL querying and analytical reporting  
+☕ **Java** – backend engineering and enterprise stacks  
 
-- 🐍 **Python** – backend APIs, data pipelines, and applied AI/LLM work  
-- ⚙️ **C++** – systems engineering, backend infrastructure, and low-latency data processing     
-- 🧮 **SQL** – Postgres/MySQL, querying, indexing, and analytical reporting
-- ☕ **Java** – backend engineering, OOP foundations, and enterprise stacks 
-
-**AI / ML:**
-
-- PyTorch · Hugging Face · LangChain · LangGraph  
-- RAG, vector search, embeddings  
-- OpenAI API & LLM-based agents
-
-**Backend & APIs:**
-
-- FastAPI · Flask · Node.js (Express/TS)  
-- RESTful APIs, webhooks, background jobs  
-- Supabase for auth/storage and quick backends
-
-**Data & Infra:**
-
-- PostgreSQL · MySQL · Redis (caching & queues)  
-- Docker · GitHub Actions (CI/CD)  
-- Cloudflare Workers · Vercel · Netlify for deployment & edge functions
+**AI / ML:** PyTorch · Hugging Face · LangChain · LangGraph · RAG · vector search · embeddings · OpenAI API  
+**Backend & APIs:** FastAPI · Flask · Node.js · RESTful APIs · Supabase auth/storage  
+**Data & Infra:** PostgreSQL · Redis · Docker · GitHub Actions · Cloudflare Workers · Vercel  
 
 ---
 
-
 ## 💼 For Recruiters & Collaborators
+Open to **Summer 2026 Data, AI, or Backend internships.**
+
 📩 **Email:** [rajahh7865@gmail.com](mailto:rajahh7865@gmail.com)  
 🐙 **GitHub:** you’re already here  
 🌐 **ValtricAI:** [valtricai.com](https://valtricai.com)
