@@ -27,13 +27,13 @@
 
 ## 👋 About Me
 
-I’m **Hussain**, I build LLM systems, data pipelines, and backend infrastructure.
+I build LLM systems, data pipelines, and backend infrastructure.
 
 Right now I’m focused on:
 
-- **Applied AI / LLMs:** multi-agent workflows, RAG, retrieval + reasoning  
-- **Data & MLOps:** pipelines, caching, monitoring, cost/latency tuning  
-- **Backend:** FastAPI, Postgres, Supabase, Redis, Docker, Cloudflare Workers  
+- **Applied AI / LLMs:** multi-agent workflows, retrieval, reasoning, and evaluation
+- **Data & MLOps:** pipelines, caching layers, monitoring, and performance optimization
+- **Backend:** FastAPI, AWS, PostgreSQL, Redis, Supabase, Docker
 
 
 ---
