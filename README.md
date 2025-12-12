@@ -8,17 +8,12 @@
 </h1>
 
 <p align="center">
-  🧠 CS & Applied Math student • 🤖 Builder @
-  <a href="https://valtricai.com" target="_blank">ValtricAI</a> •
-  Applied AI · Data Systems · Backend Infra
+  🧠 CS & Applied Math student • Applied AI · Data Systems · Backend Infra
 </p>
 
 <p align="center">
   <a href="https://valtricai.com">
-    <img alt="Website" src="https://img.shields.io/badge/Website-valtricai.com-2ea44f?logo=google-chrome&logoColor=white" />
-  </a>
-  <a href="https://valtricconsulting.com">
-    <img alt="Startup" src="https://img.shields.io/badge/Startup-valtricconsulting.com-0b7285?logo=github&logoColor=white" />
+    <img alt="Startup" src="https://img.shields.io/badge/Website-valtricai.com-2ea44f?logo=google-chrome&logoColor=white" />
   </a>
   <a href="mailto:rajahh7865@gmail.com">
     <img alt="Email" src="https://img.shields.io/badge/Email-rajahh7865@gmail.com-1d72b8?logo=gmail&logoColor=white" />
@@ -26,16 +21,13 @@
   <a href="https://www.linkedin.com/in/raja-hussain-b69a252a9">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-raja--hussain-blue?logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/Hussain0327?tab=followers">
-    <img alt="GitHub followers" src="https://img.shields.io/github/followers/Hussain0327?label=Follow&style=social" />
-  </a>
 </p>
 
 ---
 
 ## 👋 About Me
 
-I’m **Raja Hussain**, I build **LLM agent systems, data workflows, and backend APIs** that actually ship.
+I’m **Hussain**, I build LLM systems, data pipelines, and backend infrastructure.
 
 Right now I’m focused on:
 
@@ -43,67 +35,42 @@ Right now I’m focused on:
 - **Data & MLOps:** pipelines, caching, monitoring, cost/latency tuning  
 - **Backend:** FastAPI, Postgres, Supabase, Redis, Docker, Cloudflare Workers  
 
-📬 **Best contact:** [Email](mailto:rajahh7865@gmail.com) • [ValtricAI](https://valtricai.com)
 
 ---
 
 ## 🚀 What I’m Building
 
-### 🔹 Echo
+
+### 🔹 Echo  
 **AI data scientist for SMB analytics and reporting**  
-→ Used for internal analytics demos at ValtricAI  
 📁 Repo: [Echo](https://github.com/Hussain0327/Echo)  
 🌐 Demo: [echo-analytics.streamlit.app](https://echo-analytics.streamlit.app)
 
-Upload CSVs, get cleaned metrics and trend analysis through either a Streamlit dashboard for BI analysis or a Next.js app for conversational analytics.
+- Turns CSVs into cleaned metrics, trend analysis, and BI insights through a Streamlit dashboard or Next.js conversational interface.  
+- Includes a **SetFit ML router** to classify analytics requests and route them to the correct metric pipeline.  
+- Backed by a FastAPI+Postgres+Redis stack for scalable processing.  
 
-- ETL pipeline with Prefect, dbt, and Great Expectations  
-- 20+ deterministic SQL metrics with 238 unit tests (CTEs, window functions, RFM segmentation)  
-- FastAPI backend with PostgreSQL and Redis  
-- Dual interfaces: Streamlit dashboard + Next.js conversational app  
-
-**Impact:** Replaces a 2-hour manual spreadsheet workflow with a 15-minute automated analysis.  
-**Tech:** FastAPI, Next.js, Streamlit, dbt, Prefect, PostgreSQL, DeepSeek
+**Tech:** FastAPI, Next.js, Streamlit, dbt, Prefect, PostgreSQL, Redis, DeepSeek, SetFit
 
 ---
 
-### 🔹 Business Intelligence Orchestrator
+### 🔹 Business Intelligence Orchestrator  
 **Multi-agent BI system for research, analysis, and reporting**  
-→ Benchmarked on 10+ internal data projects  
 📁 Repo: [Business-Intelligence-Orchestrator](https://github.com/Hussain0327/Business-Intelligence-Orchestrator)
 
-- Takes one natural-language business question → produces structured JSON, a PowerPoint deck, and an Excel model  
-- Coordinates 4 LLM agents (market, ops, finance, lead gen) via **LangGraph** with retrieval grounding  
-- Achieved **2.1× faster execution** and **86% cost savings** via Redis caching + hybrid DeepSeek/GPT-5 routing  
-- Dockerized deployment with **FastAPI**, **LangGraph**, **Redis**, and performance benchmarking  
+- Converts one natural-language business question into **structured JSON**, a **PowerPoint deck**, and an **Excel model**.  
+- Coordinates four LLM agents using **LangGraph** with retrieval grounding.  
+- Achieves **2.1× faster execution** and **86 percent lower cost** via Redis caching + hybrid model routing.  
 
----
+**Tech:** FastAPI, LangGraph, Redis, Docker, DeepSeek, Python
 
-### 🔹 SWE Security Orchestrator  
-**LLM workflow for code review + security analysis**  
-📁 Repo: [swe-security-orchestrator](https://github.com/Hussain0327/swe-security-orchestrator)
-
-- Orchestrates 5 agents with shared memory + isolated execution to analyze code, propose fixes, and generate security reports  
-- Runs on **FastAPI**, orchestrated with **Cloudflare Workers** for lower latency and cost  
-- Adds lightweight metrics for comparing model and configuration performance  
-
----
-
-### 🔹 Automated AI Researcher  
-**Research pipeline for deep-dive reports with citations**  
-📁 Repo: [AI-topic-researcher](https://github.com/Hussain0327/AI-topic-researcher)  
-🌐 Demo: [live](https://hussain0327.github.io/AI-topic-researcher/)
-
-- Cuts topic deep-dive time from ~4 hours → ~20 minutes  
-- Chains search, evidence collection, and templated report generation into one reusable Python workflow  
-- Keeps roughly **95%** of citations valid through validation and retry logic  
 
 ---
 
 ## 💻 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,mysql,fastapi,flask,redis,docker,git,githubactions,supabase,cloudflare,vercel,pytorch&perline=8" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,mysql,fastapi,aws,flask,redis,docker,git,githubactions,cloudflare,supabase,vercel,pytorch&perline=8" />
 </p>
 
 <p>
@@ -115,19 +82,15 @@ Upload CSVs, get cleaned metrics and trend analysis through either a Streamlit d
 </p>
 
 **Core languages:**  
-🐍 **Python** – backend APIs, data pipelines, and applied AI/LLM work  
-⚙️ **C++** – systems and backend infrastructure  
-🧮 **SQL** – Postgres/MySQL querying and analytical reporting  
-☕ **Java** – backend engineering and enterprise stacks  
 
-**AI / ML:** PyTorch · Hugging Face · LangChain · LangGraph · RAG · vector search · embeddings · OpenAI API  
-**Backend & APIs:** FastAPI · Flask · Node.js · RESTful APIs · Supabase auth/storage  
-**Data & Infra:** PostgreSQL · Redis · Docker · GitHub Actions · Cloudflare Workers · Vercel  
+🐍 **Python** – backend APIs, data pipelines, and applied AI/LLM systems  
+⚙️ **C++** – systems programming and backend infrastructure  
+🧮 **SQL** – analytical queries, data modeling, and warehouse reporting  
+☕ **Java** – enterprise-style backend engineering
 
 ---
 
-## 💼 For Recruiters & Collaborators
-Open to **Summer 2026 Data, AI, or Backend internships.**
+## 💼 For Collaborators
 
 📩 **Email:** [rajahh7865@gmail.com](mailto:rajahh7865@gmail.com)  
 🐙 **GitHub:** you’re already here  
