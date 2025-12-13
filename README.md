@@ -64,6 +64,23 @@ Right now I’m focused on:
 
 **Tech:** FastAPI, LangGraph, Redis, Docker, DeepSeek, Python
 
+---
+
+### 🔹 Quant Backtesting Validation                     
+
+**Statistical backtesting framework for validating trading strategies**              
+📁 Repo: [Quant Backtesting Validation](https://github.com/Hussain0327/quant-backtesting-validation)              
+🌐 Demo: [algorithmic-trading-research-platform.streamlit.app](https://algorithmic-trading-research-platform.streamlit.app)              
+
+* Tests whether strategies exhibit a **statistical edge** or are indistinguishable from noise
+* Combines deterministic backtesting with **formal hypothesis testing**
+* Uses **train/test splits** and explicit **transaction cost modeling**
+* Results exposed via **Streamlit research dashboard** and CLI
+
+**Validation methods:** Bootstrap Sharpe CI, permutation tests, Monte Carlo simulation
+**Interpretation:** 3/3 pass = edge · 2/3 = inconclusive · 0–1 = noise
+
+**Tech:** Python, pandas, NumPy, SciPy, Streamlit, Plotly, pytest
 
 ---
 
