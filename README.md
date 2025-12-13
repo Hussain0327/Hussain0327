@@ -54,9 +54,9 @@ Right now I’m focused on:
 
 ---
 
-### 🔹 Business Intelligence Orchestrator  
+### 🔹 LangGraph BI Agent Orchestrator    
 **Multi-agent BI system for research, analysis, and reporting**  
-📁 Repo: [Business-Intelligence-Orchestrator](https://github.com/Hussain0327/Business-Intelligence-Orchestrator)
+📁 Repo: [Business-Intelligence-Orchestrator](https://github.com/Hussain0327/Langgraph-bi-agent-orchestrator)
 
 - Converts one natural-language business question into **structured JSON**, a **PowerPoint deck**, and an **Excel model**.  
 - Coordinates four LLM agents using **LangGraph** with retrieval grounding.  
