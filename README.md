@@ -41,9 +41,9 @@ Right now I’m focused on:
 ## 🚀 What I’m Building
 
 
-### 🔹 Echo  
-**AI data scientist for SMB analytics and reporting**  
-📁 Repo: [Echo](https://github.com/Hussain0327/Echo)  
+### 🔹 Echo Analytics Platform  
+**Analytics platform for turning messy business data into tested metrics, dashboards, and plain-English explanations**  
+📁 Repo: [Echo Analytics](https://github.com/Hussain0327/echo-analytics-platform)      
 🌐 Demo: [echo-analytics.streamlit.app](https://echo-analytics.streamlit.app)
 
 - Turns CSVs into cleaned metrics, trend analysis, and BI insights through a Streamlit dashboard or Next.js conversational interface.  
