@@ -77,10 +77,10 @@ Right now I’m focused on:
 * Uses **train/test splits** and explicit **transaction cost modeling**
 * Results exposed via **Streamlit research dashboard** and CLI
 
-**Validation methods:** Bootstrap Sharpe CI, permutation tests, Monte Carlo simulation
-**Interpretation:** 3/3 pass = edge · 2/3 = inconclusive · 0–1 = noise
+**Validation methods:** Bootstrap Sharpe CI, permutation tests, Monte Carlo simulation                 
+**Interpretation:** 3/3 pass = edge · 2/3 = inconclusive · 0–1 = noise                
 
-**Tech:** Python, pandas, NumPy, SciPy, Streamlit, Plotly, pytest
+**Tech:** Python, pandas, NumPy, SciPy, Streamlit, Plotly, pytest              
 
 ---
 
