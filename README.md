@@ -84,6 +84,20 @@ Right now I’m focused on:
 
 ---
 
+### 🔹 Radiohead Lyrical Analysis Lab  
+**Applied NLP + statistical testing on long-run artistic evolution**               
+📁 Repo: [radiohead-lab](https://github.com/Hussain0327/radiohead-lab)              
+🌐 Demo: [Radiohead Lyrical Analysis Lab](https://radiohead-lab.vercel.app)            
+
+- Tests whether the “Kid A coldness” narrative holds up under **sentiment analysis, lexical diversity, and topic modeling**          
+- Formal hypothesis testing across Radiohead’s full discography           
+- Combines NLP with **statistical validation** to separate narrative from evidence           
+- Built as a full analysis → visualization → web pipeline           
+
+**Methods:** sentiment analysis, topic modeling, lexical metrics, hypothesis testing           
+**Tech:** Python, NumPy, SciPy, scikit-learn, React, Vite    
+
+---
 ## 💻 Tech Stack
 
 <p align="center">
