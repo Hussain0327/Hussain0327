@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  🧠 CS & Applied Math student • Applied AI · Data Systems · Backend Infra
+  🧠 CS & Applied Math student @NYU • Applied AI · Data Systems · Backend Infra
 </p>
 
 <p align="center">
