@@ -2,7 +2,7 @@
   <a href="https://git.io/typing-svg">
     <img
       alt="Hello, I'm Raja Hussain"
-      src="https://readme-typing-svg.herokuapp.com?lines=Hey%2C+I'm+Raja+Hussain;Data+Science+and+AI+%2F+Machine+Learning&center=true&size=26"
+      src="https://readme-typing-svg.herokuapp.com?lines=Hey%2C+I'm+Raja+Hussain;AI+%2F+Machine+Learning&center=true&size=26"
     />
   </a>
 </h1>
