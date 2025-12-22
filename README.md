@@ -27,7 +27,8 @@
 
 ## About
 
-I’m Raja Hussain, a CS + Math student at NYU. I’m focused on data science and AI/ML and I like experimenting things that actually run.
+I’m Raja Hussain, a CS + Math student at NYU. I’m focused on data science and AI/ML and I like experimenting and continuously
+learning.
 
 ---
 
@@ -95,7 +96,7 @@ Tech: Python, scikit-learn, React, Vite
 
 ---
 
-## Skills (the boring part)
+## Skills 
 
 - Python, SQL, statistics, ML evaluation
 - FastAPI, Postgres, Redis, Docker (I like shipping things that actually run)
