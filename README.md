@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  CS & Math student @ NYU • Data Science · AI & ML.
+  🎓 CS & Applied Math @ NYU • Data Science · AI/ML
 </p>
 
 <p align="center">
@@ -25,81 +25,81 @@
 
 ---
 
-## About
+## 🚀 What I'm Building
 
-I’m Raja Hussain, a CS + Math student at NYU. I’m focused on data science and AI/ML and I like experimenting and continuously
-learning.
+### ValtricAI | Founder
+B2B AI platform that delivers deal analysis and consulting insights to SMBs.
 
----
+- Built multi-agent orchestration system with RAG pipelines for document analysis
+- Designed vector search layer (pgvector + Supabase) handling structured and unstructured data
+- Optimized inference costs 40% via model routing (GPT-4o for complex queries, DeepSeek for routine tasks)
 
-## Selected Projects
-
-### Echo Analytics Platform
-**Turns messy CSV exports into tested metrics + dashboards + plain-English explanations.**  
-Repo: https://github.com/Hussain0327/echo-analytics-platform  
-Demo: https://echo-analytics.streamlit.app
-
-What it does:
-- cleans common CSV issues (missingness, duplicates, schema drift)
-- computes a metric layer (cohorts, trends, segments)
-- routes questions to the right analysis pipeline (SetFit router)
-
-What I care about here:
-- metric correctness and consistency (not just pretty charts)
-- making analysis reproducible (same input, same output)
-
-Tech: FastAPI, Postgres, Redis, Streamlit, dbt, Prefect
+**Tech:** FastAPI, PostgreSQL, Supabase, pgvector, LangChain
 
 ---
 
-### LangGraph BI Agent Orchestrator
-**Takes a business question and produces a structured report (JSON + deck + spreadsheet).**  
-Repo: https://github.com/Hussain0327/Langgraph-bi-agent-orchestrator
+## 🛠️ Projects
 
-What it does:
-- converts vague prompts into structured analysis steps
-- uses retrieval grounding so the output is not free-styling
-- focuses on cost/latency tradeoffs and caching
+### 📊 Echo Analytics Platform
+**CSV to tested metrics + dashboards + plain-English insights.**
 
-Note: any speed/cost claims here are backed by internal benchmarks (I’m packaging them into a public /benchmarks folder).
+[Repo](https://github.com/Hussain0327/echo-analytics-platform) · [Demo](https://echo-analytics.streamlit.app)
 
-Tech: LangGraph, FastAPI, Redis, Docker
+- Cleans common data issues (missingness, duplicates, schema drift)
+- Computes metric layer: cohorts, trends, segments
+- Routes questions via SetFit classifier to appropriate analysis pipeline
 
----
-
-### Quant Backtesting Validation
-**Framework to test whether a trading strategy has signal or is just noise.**  
-Repo: https://github.com/Hussain0327/quant-backtesting-validation  
-Demo: https://algorithmic-trading-research-platform.streamlit.app
-
-What it does:
-- deterministic backtests with transaction costs
-- hypothesis tests (bootstrap CI, permutation tests, Monte Carlo)
-- clear interpretation rules (edge vs inconclusive vs noise)
-
-Next upgrade: walk-forward validation + block bootstrap for time-series dependence.
-
-Tech: Python, pandas, NumPy, SciPy, Streamlit, pytest
+**Tech:** FastAPI, Postgres, Redis, Streamlit, dbt, Prefect
 
 ---
 
-### Radiohead Lyrical Analysis Lab
-**NLP + stats on how lyrical style changes over time.**  
-Repo: https://github.com/Hussain0327/radiohead-lab  
-Demo: https://radiohead-lab.vercel.app
+### 🤖 LangGraph BI Agent Orchestrator
+**Business question → structured report (JSON + deck + spreadsheet).**
 
-Methods:
-- sentiment + lexical diversity + topic modeling
-- hypothesis tests across albums (not just visual storytelling)
+[Repo](https://github.com/Hussain0327/Langgraph-bi-agent-orchestrator)
 
-Tech: Python, scikit-learn, React, Vite
+- Converts vague prompts into structured analysis steps
+- Retrieval-grounded generation (outputs tied to source data)
+- Benchmarked cost/latency tradeoffs (results in /benchmarks)
+
+**Tech:** LangGraph, FastAPI, Redis, Docker
+
+---
+
+### 📈 Quant Backtesting Validation
+**Framework to distinguish real trading signal from noise.**
+
+[Repo](https://github.com/Hussain0327/quant-backtesting-validation) · [Demo](https://algorithmic-trading-research-platform.streamlit.app)
+
+- Deterministic backtests with transaction cost modeling
+- Statistical validation: bootstrap CI, permutation tests, Monte Carlo simulation
+- Clear decision rules: edge vs inconclusive vs noise
+
+**Tech:** Python, pandas, NumPy, SciPy, Streamlit, pytest
 
 ---
 
-## Skills 
+### 🎵 Radiohead Lyrical Analysis Lab
+**NLP + hypothesis testing on lyrical style evolution.**
 
-- Python, SQL, statistics, ML evaluation
-- FastAPI, Postgres, Redis, Docker (I like shipping things that actually run)
+[Repo](https://github.com/Hussain0327/radiohead-lab) · [Demo](https://radiohead-lab.vercel.app)
+
+- Sentiment analysis, lexical diversity metrics, topic modeling
+- Statistical tests across albums (not just visualization)
+
+**Tech:** Python, scikit-learn, React, Vite
 
 ---
-📩 Email: rajahh7865@gmail.com
+
+## 🧰 Skills
+
+**Languages:** Python, SQL  
+**Data:** pandas, NumPy, SciPy, scikit-learn, dbt  
+**Infrastructure:** FastAPI, PostgreSQL, Redis, Docker, Prefect  
+**ML/AI:** LangChain, LangGraph, RAG pipelines, vector databases
+
+---
+
+<p align="center">
+  💡 I like building things that actually work, then figuring out why they work.
+</p>
