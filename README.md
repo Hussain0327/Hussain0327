@@ -93,9 +93,9 @@ B2B AI platform that delivers deal analysis and consulting insights to SMBs.
 
 ## 🧰 Skills
 
-**Languages:** Python, SQL  
+**Languages:** Python, SQL, Java, C++
 **Data:** pandas, NumPy, SciPy, scikit-learn, dbt  
-**Infrastructure:** FastAPI, PostgreSQL, Redis, Docker, Prefect  
+**Infrastructure:** AWS, FastAPI, PostgreSQL, Redis, Docker, Prefect  
 **ML/AI:** LangChain, LangGraph, RAG pipelines, vector databases
 
 ---
