@@ -69,7 +69,7 @@ B2B AI platform that delivers deal analysis and consulting insights to SMBs.
 ### 📈 Quant Backtesting Validation
 **Framework to distinguish real trading signal from noise.**
 
-[Repo](https://github.com/Hussain0327/quant-backtesting-validation) · [Demo](https://algorithmic-trading-research-platform.streamlit.app)
+[Repo](https://github.com/Hussain0327/quant-backtesting-validation) · [Demo](https://quant-backtesting-validation.vercel.app/)
 
 - Deterministic backtests with transaction cost modeling
 - Statistical validation: bootstrap CI, permutation tests, Monte Carlo simulation
