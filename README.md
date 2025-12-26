@@ -40,27 +40,27 @@ B2B AI platform that delivers deal analysis and consulting insights to SMBs.
 
 ## 🛠️ Projects
 
-### 📊 Echo Analytics Platform
-**CSV to tested metrics + dashboards + plain-English insights.**
+### 📉 Credit Risk Modeling
+**Predicting loan default with production-realistic constraints.**
 
-[Repo](https://github.com/Hussain0327/echo-analytics-platform) · [Demo](https://echo-analytics.streamlit.app)
+[Repo](https://github.com/Hussain0327/risk_modeling)
 
-- Cleans common data issues (missingness, duplicates, schema drift)
-- Computes metric layer: cohorts, trends, segments
-- Routes questions via SetFit classifier to appropriate analysis pipeline
+- Trained and evaluated models on 1.3M+ LendingClub loans with strict leakage prevention
+- Addressed class imbalance and benchmarked logistic regression, random forest, and gradient boosting
+- Translated probabilities into decision thresholds (approve / review / reject) rather than raw scores
 
-**Tech:** FastAPI, Postgres, Redis, Streamlit, dbt, Prefect
+**Tech:** Python, pandas, NumPy, scikit-learn
 
 ---
 
 ### 🤖 LangGraph BI Agent Orchestrator
-**Business question → structured report (JSON + deck + spreadsheet).**
+**Business question → structured analysis (JSON, spreadsheet, deck).**
 
 [Repo](https://github.com/Hussain0327/Langgraph-bi-agent-orchestrator)
 
-- Converts vague prompts into structured analysis steps
-- Retrieval-grounded generation (outputs tied to source data)
-- Benchmarked cost/latency tradeoffs (results in /benchmarks)
+- Converts vague prompts into explicit analysis plans using agent graphs
+- Retrieval-grounded generation to ensure outputs are traceable to source data
+- Benchmarked cost and latency tradeoffs across routing strategies
 
 **Tech:** LangGraph, FastAPI, Redis, Docker
 
@@ -72,20 +72,20 @@ B2B AI platform that delivers deal analysis and consulting insights to SMBs.
 [Repo](https://github.com/Hussain0327/quant-backtesting-validation) · [Demo](https://quant-backtesting-validation.vercel.app/)
 
 - Deterministic backtests with transaction cost modeling
-- Statistical validation: bootstrap CI, permutation tests, Monte Carlo simulation
-- Clear decision rules: edge vs inconclusive vs noise
+- Statistical validation via bootstrap CI, permutation tests, and Monte Carlo simulation
+- Explicit verdicts: edge, inconclusive, or noise — not just Sharpe ratios
 
 **Tech:** Python, pandas, NumPy, SciPy, Streamlit, pytest
 
 ---
 
 ### 🎵 Radiohead Lyrical Analysis Lab
-**NLP + hypothesis testing on lyrical style evolution.**
+**NLP + hypothesis testing on lyrical evolution.**
 
 [Repo](https://github.com/Hussain0327/radiohead-lab) · [Demo](https://radiohead-lab.vercel.app)
 
 - Sentiment analysis, lexical diversity metrics, topic modeling
-- Statistical tests across albums (not just visualization)
+- Statistical tests across albums (not just visualization or anecdotes)
 
 **Tech:** Python, scikit-learn, React, Vite
 
