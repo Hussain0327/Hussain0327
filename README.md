@@ -18,7 +18,7 @@
   <a href="mailto:rajahh7865@gmail.com">
     <img alt="Email" src="https://img.shields.io/badge/Email-rajahh7865@gmail.com-1d72b8?logo=gmail&logoColor=white" />
   </a>
-  <a href="https://www.linkedin.com/in/raja-hussain-b69a252a9">
+  <a href="https://www.linkedin.com/in/raja-hussain-ai/">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-raja--hussain-blue?logo=linkedin&logoColor=white" />
   </a>
 </p>
