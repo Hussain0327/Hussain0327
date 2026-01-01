@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  🎓 CS & Applied Math @ NYU • Data Science · AI/ML
+  🎓 CS & Applied Math @ NYU • AI/ML
 </p>
 
 <p align="center">
