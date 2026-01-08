@@ -27,14 +27,18 @@
 
 ## 🚀 What I'm Building
 
-### ValtricAI | Founder
-B2B AI platform that delivers deal analysis and consulting insights to SMBs.
+### 🛡️ EvidentAI | Open Source
+**CI/CD release gate for LLM applications: catch PII leaks, prompt injection, and quality regressions before production.**
 
-- Built multi-agent orchestration system with RAG pipelines for document analysis
-- Designed vector search layer (pgvector + Supabase) handling structured and unstructured data
-- Optimized inference costs 40% via model routing (GPT-4o for complex queries, DeepSeek for routine tasks)
+[Repo](https://github.com/Hussain0327/EvidentAI)
 
-**Tech:** FastAPI, PostgreSQL, Supabase, pgvector, LangChain
+- Built CLI with 6 evaluators: exact-match, contains, llm-judge, PII detection, prompt injection, custom
+- Multi-layer prompt injection detection (heuristic patterns + canary tokens + LLM classification)
+- PII scanner with Luhn validation for credit cards, SSN format validation, GDPR-relevant entity types
+- Supports OpenAI, Anthropic, Azure, and custom OpenAI-compatible endpoints
+- 159 unit tests, verified with real LLM API calls
+
+**Tech:** TypeScript, Python, Node.js, Zod, Vitest
 
 ---
 
@@ -93,7 +97,7 @@ B2B AI platform that delivers deal analysis and consulting insights to SMBs.
 
 ## 🛠 Technical Skills
 
-**Languages:** Python, SQL, Java, C++                   
+**Languages:** Python, SQL, Java, TypeScript, C++                   
 **Data Engineering:** PostgreSQL, AWS (S3, Redshift), Spark, Kafka, Airflow, Prefect, Docker, dbt             
 **Analytics & ML:** pandas, NumPy, scikit-learn, XGBoost, Tableau, Streamlit       
 **AI/LLMs:** LangChain, LangGraph, RAG pipelines, pgvector, multi-agent systems         
