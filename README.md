@@ -57,30 +57,30 @@
 
 ---
 
-### 🤖 LangGraph BI Agent Orchestrator
-**Business question → structured analysis (JSON, spreadsheet, deck).**
+### 📊 Echo Analytics Platform          
+**Production analytics platform with medallion architecture, dimensional modeling, and 8-40x query optimization.**         
 
-[Repo](https://github.com/Hussain0327/Langgraph-bi-agent-orchestrator)
+[Repo](https://github.com/Hussain0327/echo-analytics-platform) · [Live Demo](https://echo-analytics.streamlit.app)        
 
-- Converts vague prompts into explicit analysis plans using agent graphs
-- Retrieval-grounded generation to ensure outputs are traceable to source data
-- Benchmarked cost and latency tradeoffs across routing strategies
+- dbt transformations with SCD Type 2 dimensions for point-in-time accuracy         
+- PostgreSQL partitioning benchmarked at 50M rows         
+- Prefect orchestration, Great Expectations validation, 238 tests       
 
-**Tech:** LangGraph, FastAPI, Redis, Docker
+**Tech:** Python, dbt, PostgreSQL, Prefect, FastAPI, Next.js          
 
 ---
 
-### 📈 Quant Backtesting Validation
-**Framework to distinguish real trading signal from noise.**
+### 📈 Market Sentiment & Risk Analytics              
+**Sentiment analysis and risk metrics for trading signal generation.**            
 
-[Repo](https://github.com/Hussain0327/quant-backtesting-validation) · [Demo](https://quant-backtesting-validation.vercel.app/)
+[Repo](https://github.com/Hussain0327/Market-Sentiment-Risk-Analytics)              
 
-- Deterministic backtests with transaction cost modeling
-- Statistical validation via bootstrap CI, permutation tests, and Monte Carlo simulation
-- Explicit verdicts: edge, inconclusive, or noise — not just Sharpe ratios
+- FinBERT and VADER sentiment on financial news           
+- VaR calculation (historical, parametric, Monte Carlo)            
+- XGBoost signals with walk-forward validation           
 
-**Tech:** Python, pandas, NumPy, SciPy, Streamlit, pytest
-
+**Tech:** Python, XGBoost, Streamlit         
+   
 ---
 
 ### 🎵 Radiohead Lyrical Analysis Lab
@@ -95,13 +95,15 @@
 
 ---
 
-## 🛠 Technical Skills
+## Technical Skills
 
-**Languages:** Python, SQL, Java, TypeScript, C++                   
-**Data Engineering:** PostgreSQL, AWS (S3, Redshift), Spark, Kafka, Airflow, Prefect, Docker, dbt             
-**Analytics & ML:** pandas, NumPy, scikit-learn, XGBoost, Tableau, Streamlit       
-**AI/LLMs:** LangChain, LangGraph, RAG pipelines, pgvector, multi-agent systems         
-**Core Competency:** ETL pipelines, data modeling, feature engineering, statistical analysis           
+| Category | Tools |
+|----------|-------|
+| **Languages** | Python, SQL, Java, TypeScript, C++ |
+| **Data Engineering** | PostgreSQL, AWS (S3, Redshift), Spark, Kafka, Airflow, Prefect, Docker, dbt |
+| **Analytics & ML** | pandas, NumPy, scikit-learn, XGBoost, Tableau, Streamlit |
+| **AI/LLMs** | LangChain, LangGraph, RAG pipelines, pgvector, multi-agent systems |
+| **Core** | ETL pipelines, data modeling, feature engineering, statistical analysis |       
 
 ---
 
