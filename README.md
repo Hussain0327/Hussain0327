@@ -46,7 +46,7 @@
 ### 📈 Market Sentiment & Risk Analytics
 **Quantitative risk metrics and sentiment-driven trading signals.**
 
-[Repo](https://github.com/Hussain0327/Market-Sentiment-Risk-Analytics) · [Live Dashboard](https://market-sentiment-risk-analytics.streamlit.app)
+[Repo](https://github.com/Hussain0327/Market-Sentiment-Risk-Analytics) · [Live Dashboard](https://web-iota-three-51.vercel.app/)
 
 - Calculated Value at Risk (Historical, Parametric, Monte Carlo) across 7 equity positions
 - Built GARCH(1,1) volatility forecasts for forward-looking risk estimates
