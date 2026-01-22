@@ -25,73 +25,59 @@
 
 ---
 
-## 🚀 What I'm Building
-
-### 🛡️ EvidentAI | Open Source
-**CI/CD release gate for LLM applications: catch PII leaks, prompt injection, and quality regressions before production.**
-
-[Repo](https://github.com/Hussain0327/EvidentAI)
-
-- Built CLI with 6 evaluators: exact-match, contains, llm-judge, PII detection, prompt injection, custom
-- Multi-layer prompt injection detection (heuristic patterns + canary tokens + LLM classification)
-- PII scanner with Luhn validation for credit cards, SSN format validation, GDPR-relevant entity types
-- Supports OpenAI, Anthropic, Azure, and custom OpenAI-compatible endpoints
-- 159 unit tests, verified with real LLM API calls
-
-**Tech:** TypeScript, Python, Node.js, Zod, Vitest
-
----
-
 ## 🛠️ Projects
 
-### 📉 Credit Risk Modeling
-**Predicting loan default with production-realistic constraints.**
+## Risk & Quantitative Projects
+
+### 📉 Credit Risk Scoring Platform
+**Probability of default modeling on 1.3M+ loans with production decision logic.**
 
 [Repo](https://github.com/Hussain0327/risk_modeling)
 
-- Trained and evaluated models on 1.3M+ LendingClub loans with strict leakage prevention
-- Addressed class imbalance and benchmarked logistic regression, random forest, and gradient boosting
-- Translated probabilities into decision thresholds (approve / review / reject) rather than raw scores
+- Built PD model achieving 0.72 ROC-AUC with leakage-resistant, out-of-time validation
+- Engineered 50+ features: DTI, utilization bins, loan-to-income ratios, interaction terms
+- Mapped predicted probabilities to credit decision tiers (Approve / Manual Review / Reject)
+- Identified sub-grade and interest rate as dominant risk factors; addressed 20% class imbalance
 
-**Tech:** Python, pandas, NumPy, scikit-learn
-
----
-
-### 📊 Echo Analytics Platform          
-**Production analytics platform with medallion architecture, dimensional modeling, and 8-40x query optimization.**         
-
-[Repo](https://github.com/Hussain0327/echo-analytics-platform) · [Live Demo](https://echo-analytics.streamlit.app)        
-
-- dbt transformations with SCD Type 2 dimensions for point-in-time accuracy         
-- PostgreSQL partitioning benchmarked at 50M rows         
-- Prefect orchestration, Great Expectations validation, 238 tests       
-
-**Tech:** Python, dbt, PostgreSQL, Prefect, FastAPI, Next.js          
+**Methods:** Logistic Regression, Random Forest, Gradient Boosting, class weighting
 
 ---
 
-### 📈 Market Sentiment & Risk Analytics              
-**Sentiment analysis and risk metrics for trading signal generation.**            
+### 📈 Market Sentiment & Risk Analytics
+**Quantitative risk metrics and sentiment-driven trading signals.**
 
-[Repo](https://github.com/Hussain0327/Market-Sentiment-Risk-Analytics)              
+[Repo](https://github.com/Hussain0327/Market-Sentiment-Risk-Analytics) · [Live Dashboard](https://market-sentiment-risk-analytics.streamlit.app)
 
-- FinBERT and VADER sentiment on financial news           
-- VaR calculation (historical, parametric, Monte Carlo)            
-- XGBoost signals with walk-forward validation           
+- Calculated Value at Risk (Historical, Parametric, Monte Carlo) across 7 equity positions
+- Built GARCH(1,1) volatility forecasts for forward-looking risk estimates
+- Developed sentiment signal pipeline: FinBERT on financial news → z-score normalization → daily aggregation
+- Trained XGBoost direction classifier with 100+ features using walk-forward validation to prevent lookahead bias
 
-**Tech:** Python, XGBoost, Streamlit         
-   
+**Methods:** VaR, GARCH, NLP sentiment analysis, time series forecasting
+
 ---
 
-### 🎵 Radiohead Lyrical Analysis Lab
-**NLP + hypothesis testing on lyrical evolution.**
+### 📊 Echo Analytics Platform
+**Business intelligence platform with dimensional modeling and KPI automation.**
 
-[Repo](https://github.com/Hussain0327/radiohead-lab) · [Demo](https://radiohead-lab.vercel.app)
+[Repo](https://github.com/Hussain0327/echo-analytics-platform) · [Live Demo](https://echo-analytics.streamlit.app)
 
-- Sentiment analysis, lexical diversity metrics, topic modeling
-- Statistical tests across albums (not just visualization or anecdotes)
+- Modeled customer LTV, cohort retention, and funnel conversion using star schema design
+- Implemented SCD Type 2 dimensions for point-in-time historical accuracy
+- Reduced reporting cycle time with automated KPI pipelines; benchmarked at 50M rows with 8-40x query speedup
 
-**Tech:** Python, scikit-learn, React, Vite
+**Methods:** Dimensional modeling, cohort analysis, ETL orchestration
+
+---
+
+### 🛡️ EvidentAI | Open Source
+**CI/CD release gate for LLM applications: quality and compliance checks before production.**
+
+[Repo](https://github.com/Hussain0327/EvidentAI)
+
+- Built evaluation framework with PII detection (credit card Luhn validation, SSN format checks)
+- Multi-layer prompt injection detection for model security
+- 159 unit tests, multi-provider support (OpenAI, Anthropic, Azure)
 
 ---
 
@@ -99,11 +85,12 @@
 
 | Category | Tools |
 |----------|-------|
-| **Languages** | Python, SQL, Java, TypeScript, C++ |
-| **Data Engineering** | PostgreSQL, AWS (S3, Redshift), Spark, Kafka, Airflow, Prefect, Docker, dbt |
-| **Analytics & ML** | pandas, NumPy, scikit-learn, XGBoost, Tableau, Streamlit |
-| **AI/LLMs** | LangChain, LangGraph, RAG pipelines, pgvector, multi-agent systems |
-| **Core** | ETL pipelines, data modeling, feature engineering, statistical analysis |       
+| **Languages** | Python, SQL, Java, C++, TypeScript |
+| **Data & ML** | pandas, NumPy, scikit-learn, XGBoost, Spark, Kafka |
+| **Statistics** | Regression, classification, hypothesis testing, time series, probability |
+| **Visualization** | Matplotlib, Seaborn, Plotly, Tableau, Power BI, Streamlit |
+| **Data Infrastructure** | PostgreSQL, AWS (S3, Redshift), dbt, Prefect, Airflow, Docker |
+| **Quantitative Finance** | VaR, GARCH, PD modeling, credit risk, volatility forecasting, Monte Carlo |
 
 ---
 
