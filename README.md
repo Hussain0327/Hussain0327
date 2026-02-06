@@ -27,7 +27,7 @@
 
 ## 🛠️ Projects
 
-## Risk & Quantitative Projects
+## Projects
 
 ### 📉 Credit Risk Scoring Platform
 **Probability of default modeling on 1.3M+ loans with production decision logic.**
