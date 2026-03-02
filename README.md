@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  🎓 CS & Econ @ NYU • AI/ML
+  🎓 CS & Econ @ NYU • ML Research
 </p>
 
 <p align="center">
@@ -25,59 +25,51 @@
 
 ---
 
-## 🛠️ Projects
-
 ## Projects
 
-### 📉 Credit Risk Scoring Platform
-**Probability of default modeling on 1.3M+ loans with production decision logic.**
+### 📄 Freight Brokerage Settlement Analysis
+**Investment-style research memo on C.H. Robinson's $1.09B working-capital gap.**
+[Repo](https://github.com/Hussain0327/freight-settlement-infrastructure)
 
+- Quantified $560M/year in total payments friction from financing, factoring, fraud, and admin costs using 10-K data
+- Modeled blockchain settlement pilot with scenario analysis, estimating $91M–$296M in annual savings at 5% breakeven
+- Structured diligence plan ranking 5 falsifiable assumptions by fragility with CFO-level management questions
+
+**Methods:** Monte Carlo simulation, sensitivity analysis, SEC financial statement analysis
+
+---
+
+### 🔍 Atlas Intel — Financial Intelligence Engine
+**Cross-company financial screening and benchmarking from SEC EDGAR filings.**
+[Repo](https://github.com/Hussain0327/atlas-intel)
+
+- Ingests SEC EDGAR data (13K+ companies), extracts XBRL financial facts, exposes queryable REST API
+- Automates peer comparisons, ratio screens, and risk detection across 50+ metrics from 10-K/10-Q filings
+- Reduces manual company research from hours to minutes for preliminary evaluation
+
+**Methods:** XBRL parsing, EAV data modeling, FastAPI, PostgreSQL
+
+---
+
+### 📉 Credit Risk Scoring Platform
+**Credit decisioning framework mapping PD to policy tiers across 1.3M+ loans.**
 [Repo](https://github.com/Hussain0327/risk_modeling)
 
-- Built PD model achieving 0.72 ROC-AUC with leakage-resistant, out-of-time validation
-- Engineered 50+ features: DTI, utilization bins, loan-to-income ratios, interaction terms
-- Mapped predicted probabilities to credit decision tiers (Approve / Manual Review / Reject)
-- Identified sub-grade and interest rate as dominant risk factors; addressed 20% class imbalance
+- Engineered 50+ features (DTI, utilization bins, LTI ratios, interaction terms) and mapped predicted PD to Approve / Manual Review / Reject tiers
+- Validated with out-of-time holdout (0.72 ROC-AUC) and operationalized scoring outputs for portfolio monitoring
 
-**Methods:** Logistic Regression, Random Forest, Gradient Boosting, class weighting
+**Methods:** Logistic Regression, Gradient Boosting, XGBoost, class weighting
 
 ---
 
-### 📈 Market Sentiment & Risk Analytics
-**Quantitative risk metrics and sentiment-driven trading signals.**
+### 🧠 Scaling Laws for Small Language Models
+**Independent research on neural scaling behavior in the sub-1B parameter regime.**
+[Repo](https://github.com/ValtricAI/Scaling-Laws-for-Small-Language-Models)
 
-[Repo](https://github.com/Hussain0327/Market-Sentiment-Risk-Analytics) · [Live Dashboard](https://web-iota-three-51.vercel.app/)
+- Identified practical efficiency threshold at 350M parameters (3x more improvement per parameter than larger variants)
+- Quantified diminishing returns using power-law fitting (R² = 0.99); documented statistical limitations of n=4 sample size
 
-- Calculated Value at Risk (Historical, Parametric, Monte Carlo) across 7 equity positions
-- Built GARCH(1,1) volatility forecasts for forward-looking risk estimates
-- Developed sentiment signal pipeline: FinBERT on financial news → z-score normalization → daily aggregation
-- Trained XGBoost direction classifier with 100+ features using walk-forward validation to prevent lookahead bias
-
-**Methods:** VaR, GARCH, NLP sentiment analysis, time series forecasting
-
----
-
-### 📊 Echo Analytics Platform
-**Business intelligence platform with dimensional modeling and KPI automation.**
-
-[Repo](https://github.com/Hussain0327/echo-analytics-platform) · [Live Demo](https://echo-analytics.streamlit.app)
-
-- Modeled customer LTV, cohort retention, and funnel conversion using star schema design
-- Implemented SCD Type 2 dimensions for point-in-time historical accuracy
-- Reduced reporting cycle time with automated KPI pipelines; benchmarked at 50M rows with 8-40x query speedup
-
-**Methods:** Dimensional modeling, cohort analysis, ETL orchestration
-
----
-
-### 🛡️ EvidentAI | Open Source
-**CI/CD release gate for LLM applications: quality and compliance checks before production.**
-
-[Repo](https://github.com/Hussain0327/EvidentAI)
-
-- Built evaluation framework with PII detection (credit card Luhn validation, SSN format checks)
-- Multi-layer prompt injection detection for model security
-- 159 unit tests, multi-provider support (OpenAI, Anthropic, Azure)
+**Methods:** PyTorch, HuggingFace, MobileLLM, power-law regression
 
 ---
 
@@ -85,15 +77,13 @@
 
 | Category | Tools |
 |----------|-------|
-| **Languages** | Python, SQL, Java, C++, TypeScript |
-| **Data & ML** | pandas, NumPy, scikit-learn, XGBoost, Spark, Kafka |
-| **Statistics** | Regression, classification, hypothesis testing, time series, probability |
-| **Visualization** | Matplotlib, Seaborn, Plotly, Tableau, Power BI, Streamlit |
-| **Data Infrastructure** | PostgreSQL, AWS (S3, Redshift), dbt, Prefect, Airflow, Docker |
-| **Quantitative Finance** | VaR, GARCH, PD modeling, credit risk, volatility forecasting, Monte Carlo |
+| **Languages** | Python, SQL, R, Java |
+| **Financial & Analytical** | Credit risk modeling, market risk (VaR/CVaR), financial statement analysis, KPI design, scenario modeling |
+| **Data & Infrastructure** | PostgreSQL, dbt, Prefect, Power BI, Excel, AWS (S3, Redshift), Docker, Git |
+| **ML/Stats** | pandas, NumPy, scikit-learn, XGBoost, PyTorch, GARCH, time series, hypothesis testing |
 
 ---
 
 <p align="center">
-  💡 I like building things that actually work, then figuring out why they work.
+  I build analytical infrastructure for financial decision-making.
 </p>
