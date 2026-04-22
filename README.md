@@ -7,7 +7,7 @@
   </a>
 </h1>
 <p align="center">
-  CS & Math @ NYU | Building data systems and backend infrastructure
+  CS & Econ @ NYU | Building data systems and backend infrastructure
 </p>
 <p align="center">
   <a href="mailto:rajahh7865@gmail.com">
