@@ -1,49 +1,49 @@
 # Raja Hussain
 
-CS & Econ @ NYU. I build grounded, auditable AI systems: retrieval and LLM tooling that cites its sources, refuses when it can't, and gates on evals.
+CS & Econ @ NYU. I build AI systems that show their work: retrieval and LLM tools that cite sources, say "I don't know" when they should, and get tested before they ship.
 
-The thread across my work is evidence over guesswork. Answers trace to a source or never get made, extraction ties every claim to where it came from, and LLM behavior is tested in CI like any other code.
+Every project here follows the same rule: an answer is only as good as what it points back to.
 
-[Website](https://raja-builds-ai.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/raja-hussain-ai) · [ValtricAI](https://valtricai.com/) · rajahh7865@gmail.com
+[Website](https://raja-builds-ai.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/raja-hussain-ai) · rajahh7865@gmail.com
 
 ## Projects
 
-### REGWATCH: Grounded Regulatory Intelligence
-A RAG system that turns a multi-day FDA research task into cited answers in minutes. Built during my 2026 internship for a generic-drug Clinical Regulatory Affairs team. Private repo. [Read the case study](CASE_STUDY_LINK)
+### REGWATCH — Regulatory RAG System
+Built during my 2026 internship for a pharma regulatory affairs team. Turns a research task that used to take days into cited answers in minutes. Private repo. [Case study](CASE_STUDY_LINK)
 
-- Citation-or-refuse by design: every answer carries a source and page or an explicit "not found," enforced as tested invariants, not prompt guidelines
-- Synthesizes six FDA sources (Orange Book, Drugs@FDA, DailyMed, Shortages, REMS, Product-Specific Guidances), resolving the product before retrieval so a citation can never cross drugs
-- Graded in CI against a gold set with hard gates on recall@k, citation precision, and refusal accuracy before any merge
+- Every answer comes with a source and page, or an honest "not found" — enforced by tests, not just prompted
+- Pulls from six FDA databases (Orange Book, Drugs@FDA, DailyMed, and others), locking in the right product before retrieval so citations never mix up drugs
+- Runs through a CI eval gate checking recall, citation accuracy, and refusal behavior before anything merges
 - Python, FastAPI, ChromaDB/pgvector, SQLModel, Dagster, Next.js/TypeScript
 
-### CloudSearch: Hybrid Search Backend
-A low-latency Go service that fuses vector and keyword retrieval with SSE streaming. [Repo](LINK)
+### CloudSearch — Hybrid Search Backend
+A fast Go service combining vector and keyword search with live streaming results. [Repo](LINK)
 
-- Hybrid retrieval (pgvector cosine + tsvector) fused via Reciprocal Rank Fusion, hitting 100% recall@5 on a 24-query suite
-- Go API on Chi with goroutine fan-out, a two-level LRU cache, and per-IP rate limiting for concurrent queries
-- Python ingestion with BFS crawling, type-aware chunking, BGE-large embeddings, and SHA-256 dedup on upsert
+- Combines pgvector and keyword search using Reciprocal Rank Fusion, hitting 100% recall@5 on a 24-query test set
+- Go API with goroutine fan-out, a two-level cache, and per-IP rate limiting
+- Python ingestion pipeline with crawling, smart chunking, and dedup on upsert
 - Go, Python, PostgreSQL, pgvector, Ollama, Docker
 
-### Atlas Intel: SEC EDGAR Data Platform
-An async ingestion pipeline and REST API serving normalized XBRL data for 13K+ public companies. [Repo](LINK)
+### Atlas Intel — SEC EDGAR Data Platform
+An async pipeline and API serving normalized financial data for 13K+ public companies. [Repo](LINK)
 
-- End-to-end async ingestion of 10-K and 10-Q filings: fetch, parse, store, serve
-- EAV data model with FastAPI endpoints for cross-company screening across 50+ financial metrics
+- Full pipeline from raw SEC filings to a queryable API
+- Cross-company screening across 50+ financial metrics
 - Python, FastAPI, PostgreSQL, async SQLAlchemy, Docker
 
-### Inversion Thesis Engine: Document Intelligence Backend
-A FastAPI service that ingests deal documents and surfaces auditable diligence risks. [Repo](LINK)
+### Inversion Thesis Engine — Document Intelligence Backend
+A service that ingests deal documents and flags diligence risks, with every flag traceable to source text. [Repo](LINK)
 
-- Rule-based contradiction detection that links every flag back to source text via auditable evidence chains
-- Claude API structured extraction from CIMs and financial statements over a Postgres deal and document model
-- Deterministic EBITDA bridge calculator with base, downside, and partial-adoption scenarios
+- Contradiction detection that links every flag back to the original document
+- Structured extraction from deal documents using the Claude API
+- Deterministic financial modeling with base, downside, and partial-adoption scenarios
 - Python, FastAPI, PostgreSQL, Claude API, PyMuPDF
 
-### EvidentAI: Open-Source LLM Eval and Security CLI
-A CI/CD-friendly evaluation suite and runtime gateway for LLM applications (co-authored). [Repo](LINK) · [npm](LINK)
+### EvidentAI — Open-Source LLM Eval & Security CLI
+A CI/CD-friendly eval suite and runtime gateway for LLM apps (co-authored). [Repo](LINK) · [npm](LINK)
 
-- Six built-in evaluators including LLM-judge, PII detection, and prompt-injection checks, with 211 passing tests
-- A CLI that runs eval suites inside CI/CD, plus a gateway proxy for runtime protection
+- Six built-in evaluators (LLM-judge, PII detection, prompt-injection checks), backed by 211 passing tests
+- CLI for running evals in CI/CD, plus a gateway for runtime protection
 - TypeScript, Node.js, Python
 
 ## Skills
@@ -52,6 +52,6 @@ A CI/CD-friendly evaluation suite and runtime gateway for LLM applications (co-a
 | --- | --- |
 | Languages | Python, Go, SQL, TypeScript |
 | Backend | FastAPI, Chi, asyncpg, SQLAlchemy, Alembic, REST, SSE |
-| Data | PostgreSQL, pgvector, ETL and ingestion pipelines, vector search |
-| AI/ML | RAG, embeddings (sentence-transformers / BGE), LLM evaluation, Ollama |
+| Data | PostgreSQL, pgvector, ETL pipelines, vector search |
+| AI/ML | RAG, embeddings, LLM evaluation, Ollama |
 | Infra | Docker, GitHub Actions, CI/CD |
