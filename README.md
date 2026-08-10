@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/snake.svg" alt="snake" width="100%"/>
+<img src="snake.svg" alt="snake" width="100%"/>
 
 **[▶ Play it](https://hussain0327.github.io/Hussain0327/)** · arrows to move, space to pause
 
