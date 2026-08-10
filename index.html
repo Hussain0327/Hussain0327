@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>raja // snake</title>
+    <style>
+      :root {
+        --bg: #0d1117;
+        --panel: #010409;
+        --grid: #161b22;
+        --snake: #39d353;
+        --head: #7ee787;
+        --food: #f78166;
+        --text: #c9d1d9;
+        --dim: #6e7681;
+        --acc: #58a6ff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 16px;
+        gap: 16px;
+      }
+      h1 {
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        margin: 0;
+        color: var(--dim);
+      }
+      h1 b {
+        color: var(--snake);
+        font-weight: 600;
+      }
+      .hud {
+        display: flex;
+        gap: 28px;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--dim);
+      }
+      .hud span {
+        color: var(--text);
+        font-variant-numeric: tabular-nums;
+      }
+      .wrap {
+        position: relative;
+        line-height: 0;
+      }
+      canvas {
+        background: var(--panel);
+        border: 1px solid #21262d;
+        border-radius: 8px;
+        image-rendering: pixelated;
+        max-width: 100%;
+        height: auto;
+        touch-action: none;
+      }
+      .overlay {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+        background: rgba(1, 4, 9, 0.88);
+        border-radius: 8px;
+        font-size: 13px;
+        line-height: 1.7;
+      }
+      .overlay.hide {
+        display: none;
+      }
+      .overlay b {
+        color: var(--snake);
+        font-size: 16px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .overlay small {
+        color: var(--dim);
+        font-size: 11px;
+      }
+      kbd {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 4px;
+        padding: 1px 6px;
+        font-size: 11px;
+        color: var(--text);
+      }
+      .foot {
+        font-size: 11px;
+        color: var(--dim);
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .foot a {
+        color: var(--acc);
+        text-decoration: none;
+      }
+      .foot a:hover {
+        text-decoration: underline;
+      }
+      .pad {
+        display: none;
+        grid-template-columns: repeat(3, 56px);
+        gap: 8px;
+        margin-top: 4px;
+      }
+      .pad button {
+        height: 56px;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        color: var(--text);
+        font-size: 18px;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      .pad button:active {
+        background: #21262d;
+      }
+      .pad .sp {
+        visibility: hidden;
+      }
+      @media (hover: none) {
+        .pad {
+          display: grid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>raja <b>//</b> snake</h1>
+
+    <div class="hud">
+      score <span id="score">0</span> best <span id="best">0</span> len
+      <span id="len">4</span>
+    </div>
+
+    <div class="wrap">
+      <canvas id="c" width="480" height="480"></canvas>
+      <div class="overlay" id="ov">
+        <b id="ovt">ready</b>
+        <div id="ovs">
+          arrows or <kbd>WASD</kbd> to move<br /><kbd>space</kbd> to pause
+        </div>
+        <small>press any key or tap to start</small>
+      </div>
+    </div>
+
+    <div class="pad">
+      <button class="sp"></button><button data-d="U">↑</button
+      ><button class="sp"></button> <button data-d="L">←</button
+      ><button data-d="D">↓</button><button data-d="R">→</button>
+    </div>
+
+    <div class="foot">
+      <a href="https://github.com/Hussain0327">github</a>
+      <a href="https://www.linkedin.com/in/raja-hussain-ai">linkedin</a>
+      <a href="https://raja-builds-ai.vercel.app/">site</a>
+      <a href="mailto:rajahh7865@gmail.com">email</a>
+    </div>
+
+    <script>
+      const C = 24,
+        CELL = 20,
+        W = C * CELL;
+      const cv = document.getElementById("c"),
+        ctx = cv.getContext("2d");
+      const $ = (id) => document.getElementById(id);
+
+      let snake,
+        dir,
+        next,
+        food,
+        score,
+        best,
+        alive,
+        started,
+        paused,
+        tick,
+        acc,
+        last;
+      best = +(localStorage.getItem("snakeBest") || 0);
+      $("best").textContent = best;
+
+      function reset() {
+        snake = [
+          { x: 8, y: 12 },
+          { x: 7, y: 12 },
+          { x: 6, y: 12 },
+          { x: 5, y: 12 },
+        ];
+        dir = { x: 1, y: 0 };
+        next = { x: 1, y: 0 };
+        score = 0;
+        alive = true;
+        paused = false;
+        tick = 115;
+        acc = 0;
+        last = 0;
+        placeFood();
+        sync();
+      }
+      function placeFood() {
+        do {
+          food = { x: (Math.random() * C) | 0, y: (Math.random() * C) | 0 };
+        } while (snake.some((s) => s.x === food.x && s.y === food.y));
+      }
+      function sync() {
+        $("score").textContent = score;
+        $("len").textContent = snake.length;
+        $("best").textContent = best;
+      }
+      function overlay(show, title, sub) {
+        const ov = $("ov");
+        if (!show) {
+          ov.classList.add("hide");
+          return;
+        }
+        ov.classList.remove("hide");
+        $("ovt").textContent = title;
+        $("ovs").innerHTML = sub;
+      }
+
+      function step() {
+        if (!alive || paused) return;
+        dir = next;
+        const h = { x: snake[0].x + dir.x, y: snake[0].y + dir.y };
+        if (
+          h.x < 0 ||
+          h.y < 0 ||
+          h.x >= C ||
+          h.y >= C ||
+          snake.some((s) => s.x === h.x && s.y === h.y)
+        ) {
+          alive = false;
+          if (score > best) {
+            best = score;
+            localStorage.setItem("snakeBest", best);
+          }
+          sync();
+          overlay(
+            true,
+            "game over",
+            `score <b style="color:#f78166">${score}</b> · best ${best}<br/><small>press any key to retry</small>`,
+          );
+          return;
+        }
+        snake.unshift(h);
+        if (h.x === food.x && h.y === food.y) {
+          score += 10;
+          placeFood();
+          tick = Math.max(58, tick - 2.5);
+        } else snake.pop();
+        sync();
+      }
+
+      function draw() {
+        ctx.fillStyle = "#010409";
+        ctx.fillRect(0, 0, W, W);
+        ctx.strokeStyle = "#161b22";
+        ctx.lineWidth = 1;
+        for (let i = 1; i < C; i++) {
+          ctx.beginPath();
+          ctx.moveTo(i * CELL + 0.5, 0);
+          ctx.lineTo(i * CELL + 0.5, W);
+          ctx.stroke();
+          ctx.beginPath();
+          ctx.moveTo(0, i * CELL + 0.5);
+          ctx.lineTo(W, i * CELL + 0.5);
+          ctx.stroke();
+        }
+        ctx.fillStyle = "#f78166";
+        ctx.fillRect(
+          food.x * CELL + 5,
+          food.y * CELL + 5,
+          CELL - 10,
+          CELL - 10,
+        );
+        snake.forEach((s, i) => {
+          ctx.fillStyle = i === 0 ? "#7ee787" : "#39d353";
+          ctx.globalAlpha = i === 0 ? 1 : Math.max(0.45, 1 - i * 0.028);
+          ctx.fillRect(s.x * CELL + 2, s.y * CELL + 2, CELL - 4, CELL - 4);
+        });
+        ctx.globalAlpha = 1;
+      }
+
+      function loop(ts) {
+        if (!last) last = ts;
+        acc += ts - last;
+        last = ts;
+        while (acc >= tick) {
+          step();
+          acc -= tick;
+        }
+        draw();
+        requestAnimationFrame(loop);
+      }
+
+      const MAP = {
+        ArrowUp: "U",
+        ArrowDown: "D",
+        ArrowLeft: "L",
+        ArrowRight: "R",
+        w: "U",
+        s: "D",
+        a: "L",
+        d: "R",
+        W: "U",
+        S: "D",
+        A: "L",
+        D: "R",
+      };
+      const VEC = {
+        U: { x: 0, y: -1 },
+        D: { x: 0, y: 1 },
+        L: { x: -1, y: 0 },
+        R: { x: 1, y: 0 },
+      };
+
+      function turn(k) {
+        const v = VEC[k];
+        if (!v) return;
+        if (v.x === -dir.x && v.y === -dir.y) return;
+        next = v;
+      }
+      function begin() {
+        if (!started || !alive) {
+          started = true;
+          reset();
+          overlay(false);
+        }
+      }
+
+      addEventListener("keydown", (e) => {
+        if (
+          ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", " "].includes(
+            e.key,
+          )
+        )
+          e.preventDefault();
+        if (!started || !alive) {
+          begin();
+          return;
+        }
+        if (e.key === " ") {
+          paused = !paused;
+          paused
+            ? overlay(true, "paused", "<kbd>space</kbd> to resume")
+            : overlay(false);
+          return;
+        }
+        turn(MAP[e.key]);
+      });
+
+      document.querySelectorAll(".pad button[data-d]").forEach((b) => {
+        b.addEventListener("click", () => {
+          if (!started || !alive) {
+            begin();
+            return;
+          }
+          turn(b.dataset.d);
+        });
+      });
+
+      let t0 = null;
+      cv.addEventListener(
+        "touchstart",
+        (e) => {
+          t0 = e.touches[0];
+          if (!started || !alive) begin();
+        },
+        { passive: true },
+      );
+      cv.addEventListener(
+        "touchend",
+        (e) => {
+          if (!t0) return;
+          const t = e.changedTouches[0],
+            dx = t.clientX - t0.clientX,
+            dy = t.clientY - t0.clientY;
+          if (Math.abs(dx) < 20 && Math.abs(dy) < 20) return;
+          turn(
+            Math.abs(dx) > Math.abs(dy)
+              ? dx > 0
+                ? "R"
+                : "L"
+              : dy > 0
+                ? "D"
+                : "U",
+          );
+          t0 = null;
+        },
+        { passive: true },
+      );
+      cv.addEventListener("click", () => {
+        if (!started || !alive) begin();
+      });
+
+      reset();
+      overlay(
+        true,
+        "ready",
+        "arrows or <kbd>WASD</kbd> to move<br/><kbd>space</kbd> to pause",
+      );
+      requestAnimationFrame(loop);
+    </script>
+  </body>
+</html>
