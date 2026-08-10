@@ -2,13 +2,11 @@
 
 <img src="snake.svg" alt="snake" width="100%"/>
 
-**[▶ Play it](https://hussain0327.github.io/Hussain0327/)** · arrows to move, space to pause
+**[▶ Play it](https://hussain0327.github.io/Hussain0327/)**
 
 # Raja Hussain
 
-CS & Econ @ NYU. I build AI systems that show their work: retrieval and LLM tools that cite sources, say "I don't know" when they should, and get tested before they ship.
-
-Every project here follows the same rule: an answer is only as good as what it points back to.
+CS & Econ @ NYU
 
 [Website](https://raja-builds-ai.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/raja-hussain-ai) · rajahh7865@gmail.com
 
