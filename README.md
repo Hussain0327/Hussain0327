@@ -68,35 +68,6 @@ Exploring the systems behind information retrieval and search infrastructure, wi
 
 ---
 
-### 📊 [SLM RAG Eval](https://github.com/Hussain0327/slm-rag-eval)
-
-**Evaluation infrastructure for retrieval-augmented generation**
-`Python` `RAG` `Evaluation`
-
-Experiments around measuring retrieval and generation quality for smaller language models and RAG systems.
-
----
-
-### 🧠 [NeetCode GPT](https://github.com/Hussain0327/neetcode-gpt)
-
-**GPT implemented from scratch**
-`Python` `Transformers` `Deep Learning`
-
-Built to understand the mechanics underneath modern language models rather than treating them as black-box APIs.
-
----
-
-## Selected Research
-
-I also build projects around ML, economics, markets, and quantitative research:
-
-* **[Geopolitical Oil Risk](https://github.com/Hussain0327/geopolitical-oil-risk)** — geopolitical risk and energy-market research
-* **[On-Chain Research Pipeline](https://github.com/Hussain0327/on-chain-research-pipeline)** — crypto / blockchain research infrastructure
-* **[News Sentiment → Stock Signals](https://github.com/Hussain0327/news-sentiment-stock-signals)** — NLP-driven market signal research
-* **[F1 Race Outcome](https://github.com/Hussain0327/F1-Race-Outcome)** — predictive modeling for Formula 1 outcomes
-
----
-
 ## What I'm Interested In
 
 ```text
