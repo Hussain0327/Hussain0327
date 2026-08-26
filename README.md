@@ -5,7 +5,7 @@ $ whoami
 raja hussain · cs + econ @ nyu · new york
 
 $ cat focus
-retrieval · llm inference · storage engines · eval
+storage engines · retrieval · llm inference · eval
 ```
 
 [Portfolio](https://raja-builds-ai.vercel.app/) ·
