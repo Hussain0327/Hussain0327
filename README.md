@@ -2,7 +2,7 @@
 
 ```console
 $ whoami
-raja hussain · cs + econ @ nyu · new york
+raja hussain · cs + ds @ nyu · new york
 
 $ cat focus
 storage engines · retrieval · llm inference · eval
